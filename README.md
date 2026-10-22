@@ -2,6 +2,14 @@
 
 Website tĩnh HTML/CSS/JavaScript thuần, tiếng Việt. Không cần npm, framework hoặc build. Màu trắng, xanh lá, đen. Font hệ thống hỗ trợ tiếng Việt, không tải font từ bên ngoài.
 
+## Bản sửa hiển thị v3
+
+Đã giới hạn chiều rộng ảnh và grid để tránh tràn bố cục. CSS/JS đang dùng file có mã phiên bản trong `assets` để trình duyệt không lấy nhầm bản cũ. Khi upload cập nhật, cần thay đồng thời TẤT CẢ file HTML và thư mục `assets` trong cùng một commit. Không chỉ upload `index.html`, không bỏ qua file CSS/JS có tên `marqbyte-style-...` / `marqbyte-app-...`.
+
+Nếu tự sửa `assets/style.css` hoặc `assets/app.js`, chạy `python scripts/version_assets.py` để tạo tên phiên bản mới và cập nhật liên kết trong HTML. Upload các HTML và assets vừa được cập nhật cùng nhau.
+
+Đã kiểm tra 6 trang chính ở 390, 768 và 1280px, không tràn ngang tài liệu.
+
 ## Xem trên máy tính
 
 Giải nén rồi mở `index.html` bằng Chrome hoặc Edge. Hoặc mở thư mục bằng VS Code, chạy `python -m http.server 5500`, truy cập http://localhost:5500. Nhấn Ctrl+C để dừng.
