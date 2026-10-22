@@ -18,11 +18,18 @@ Giải nén rồi mở `index.html` bằng Chrome hoặc Edge. Hoặc mở thư 
 
 Mọi đường dẫn nội bộ là đường dẫn tương đối để sử dụng được với repository Pages.
 
+## Bản cập nhật nội dung SEO & bảng giá
+
+Đã mở rộng 7 trang dịch vụ, thêm 21 gói với phạm vi và bảng so sánh, 7 ảnh minh họa WebP riêng và trang `bang-gia.html`. Các mức giá là đề xuất tham khảo, cần rà soát giá vốn trước khi dùng làm báo giá chính thức. Xem `SEO-CONTENT-NOTES.md` để đọc bảng giá tổng hợp, định hướng từ khóa và cấu hình canonical/sitemap theo URL thật.
+
+Mỗi nút tư vấn gói tự chọn sẵn dịch vụ và gói trong form; thay dịch vụ sẽ cập nhật danh sách gói. Form vẫn dùng mailto như bản trước.
+
 ## Các trang
 
 - index.html: Trang chủ.
 - gioi-thieu.html: Giới thiệu thương hiệu và nguyên tắc làm việc.
 - dich-vu.html: Tổng quan 7 nhóm dịch vụ, 3 phương án hợp tác.
+- bang-gia.html: Giá khởi điểm 7 dịch vụ và đường dẫn tới 21 gói chi tiết.
 - dich-vu-*.html: 7 trang dịch vụ chi tiết.
 - giai-phap.html: Hướng triển khai tham khảo cho SME, cửa hàng địa phương, trường học và thương mại điện tử.
 - lien-he.html: Thông tin liên hệ và biểu mẫu tư vấn / thời gian muốn trao đổi.
@@ -52,4 +59,4 @@ Chưa thêm khách hàng, logo đối tác, testimonial hoặc số liệu thàn
 
 ## Kiểm tra trước khi dùng chính thức
 
-Thay logo; rà soát nội dung và phạm vi dịch vụ; thử Zalo/gọi điện trên điện thoại thật; thiết lập dịch vụ nhận form nếu cần; bổ sung chính sách quyền riêng tư khi thu thập dữ liệu qua backend; thêm tên miền thực vào canonical, sitemap và cấu hình tracking nếu triển khai. Hiện chưa gắn quảng cáo, cookie tracking hay API.
+Thay logo; rà soát nội dung và phạm vi dịch vụ; thử Zalo/gọi điện trên điện thoại thật; thiết lập dịch vụ nhận form nếu cần; bổ sung chính sách quyền riêng tư khi thu thập dữ liệu qua backend; chạy `scripts/configure_seo.py` với URL thật để tạo canonical, sitemap và thẻ chia sẻ; cấu hình tracking nếu triển khai. Hiện chưa gắn quảng cáo, cookie tracking hay API.
