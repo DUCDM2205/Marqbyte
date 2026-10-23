@@ -1,0 +1,961 @@
+[
+  {
+    "slug": "ads-da-nen-tang",
+    "art": "ads",
+    "name": "Quảng cáo đa nền tảng",
+    "title": "Dịch vụ chạy quảng cáo Google, Facebook & TikTok Ads",
+    "desc": "Dịch vụ quảng cáo Google Ads, Facebook Ads và TikTok Ads cho doanh nghiệp. Xem phạm vi quản lý, theo dõi chuyển đổi và bảng giá từ 3 triệu đồng/tháng.",
+    "lead": "MarqByte triển khai dịch vụ chạy quảng cáo đa nền tảng, kết nối Google Ads, Facebook Ads, Instagram Ads và TikTok Ads với mục tiêu thu hút khách hàng tiềm năng. Kế hoạch bắt đầu từ sản phẩm, khu vực phục vụ, ngân sách và năng lực tiếp nhận tư vấn của doanh nghiệp.",
+    "why": "Quảng cáo có lượt nhấp nhưng ít người liên hệ, khách để lại thông tin chưa phù hợp hoặc báo cáo giữa các kênh khó đối chiếu? Dịch vụ quản lý quảng cáo giúp bạn kiểm tra lại toàn bộ hành trình: từ thông điệp và đối tượng đến trang đích, form và quy trình xử lý khách hàng. Mỗi nền tảng được chọn theo nhu cầu thực tế, thay vì chia nhỏ ngân sách cho quá nhiều kênh ngay từ đầu.",
+    "fit": "Phù hợp doanh nghiệp dịch vụ, cửa hàng địa phương, trường học và thương hiệu thương mại điện tử đã có sản phẩm, thông tin bán hàng và người phụ trách tư vấn. Nếu website hoặc dữ liệu chuyển đổi chưa sẵn sàng, MarqByte đề xuất hoàn thiện nền tảng trước khi tăng ngân sách.",
+    "scope": [
+      [
+        "Khảo sát và lập kế hoạch quảng cáo",
+        "Phân tích nhu cầu tìm kiếm, thông điệp bán hàng, chân dung khách hàng và khu vực mục tiêu. Xác định chiến dịch ưu tiên, giới hạn ngân sách, mục tiêu liên hệ và tiêu chí đánh giá theo từng giai đoạn."
+      ],
+      [
+        "Google Ads theo nhu cầu tìm kiếm",
+        "Xây dựng nhóm từ khóa, quảng cáo tìm kiếm và danh sách từ khóa loại trừ. Rà soát truy vấn, thiết bị, địa điểm và trang đích. Các định dạng mở rộng được đề xuất sau khi đánh giá dữ liệu và tài sản sẵn có."
+      ],
+      [
+        "Facebook Ads, Instagram và TikTok Ads",
+        "Thiết lập nhóm đối tượng, thông điệp và nội dung thử nghiệm theo từng nền tảng. Sử dụng hình ảnh, video và thông tin sản phẩm đã được doanh nghiệp duyệt; ưu tiên cấu trúc dễ kiểm soát và có cơ sở so sánh."
+      ],
+      [
+        "Đo lường lượt liên hệ và chuyển đổi",
+        "Rà soát GA4, GTM, UTM và các sự kiện form hoặc bấm liên hệ khi hệ thống cho phép. Thống nhất nguồn dữ liệu dùng để đánh giá; phân biệt lượt chuyển đổi được nền tảng ghi nhận với khách hàng đã xác nhận bởi bộ phận tư vấn."
+      ],
+      [
+        "Tối ưu ngân sách và nội dung thử nghiệm",
+        "Theo dõi phân phối, chi phí và chất lượng nhu cầu. Điều chỉnh quảng cáo theo dữ liệu tích lũy, hạn chế thay đổi đồng thời quá nhiều yếu tố và ghi nhận các thử nghiệm để tránh lặp lại lựa chọn kém hiệu quả."
+      ],
+      [
+        "Báo cáo đi cùng hướng xử lý",
+        "Tổng hợp chi tiêu, lượt nhấp, lượt liên hệ và phản hồi từ doanh nghiệp. Báo cáo chỉ rõ dữ liệu còn thiếu, vấn đề cần xử lý và đề xuất cho chu kỳ tiếp theo; không đánh đồng nhiều lượt nhấp với tăng doanh thu."
+      ]
+    ],
+    "plans": [
+      [
+        "Khởi động",
+        "3.000.000",
+        "/tháng",
+        "Một kênh, một mục tiêu ưu tiên.",
+        [
+          "01 nền tảng: Google hoặc Meta",
+          "Tối đa 03 chiến dịch đang chạy",
+          "Ngân sách media tối đa 20 triệu/tháng",
+          "04 mẫu nội dung quảng cáo tĩnh/tháng",
+          "01 lần rà soát tracking có sẵn",
+          "01 báo cáo cuối tháng"
+        ]
+      ],
+      [
+        "Phát triển",
+        "5.000.000",
+        "/tháng",
+        "Phối hợp hai kênh và thử nghiệm có kế hoạch.",
+        [
+          "Tối đa 02 nền tảng quảng cáo",
+          "Tối đa 06 chiến dịch đang chạy",
+          "Ngân sách media tối đa 50 triệu/tháng",
+          "08 mẫu nội dung quảng cáo tĩnh/tháng",
+          "Thiết lập tối đa 03 sự kiện web cơ bản",
+          "Báo cáo tháng + cập nhật mỗi tuần"
+        ]
+      ],
+      [
+        "Đa kênh",
+        "8.000.000",
+        "/tháng",
+        "Dành cho doanh nghiệp cần điều phối nhiều chiến dịch.",
+        [
+          "Tối đa 03 nền tảng quảng cáo",
+          "Tối đa 10 chiến dịch đang chạy",
+          "Ngân sách media tối đa 100 triệu/tháng",
+          "12 mẫu nội dung quảng cáo tĩnh/tháng",
+          "Tối đa 05 sự kiện web cơ bản",
+          "Báo cáo tháng + 02 buổi trao đổi/tháng"
+        ]
+      ]
+    ],
+    "rows": [
+      [
+        "Số nền tảng",
+        "01",
+        "02",
+        "03"
+      ],
+      [
+        "Chiến dịch đang chạy",
+        "Tối đa 03",
+        "Tối đa 06",
+        "Tối đa 10"
+      ],
+      [
+        "Mẫu quảng cáo tĩnh/tháng",
+        "04",
+        "08",
+        "12"
+      ],
+      [
+        "Ngân sách media quản lý",
+        "≤ 20 triệu",
+        "≤ 50 triệu",
+        "≤ 100 triệu"
+      ]
+    ],
+    "note": "Giá là phí quản lý, không bao gồm tiền chạy quảng cáo. Ngân sách media do doanh nghiệp thanh toán trực tiếp cho nền tảng. Chưa gồm quay dựng video, landing page mới, tài khoản thuê và xử lý tài khoản bị hạn chế. Vượt hạn mức ngân sách hoặc số chiến dịch sẽ được báo giá bổ sung trước.",
+    "out": [
+      "Kế hoạch kênh, ngân sách và mục tiêu đã thống nhất",
+      "Bộ cấu trúc chiến dịch và mẫu quảng cáo được duyệt",
+      "Danh sách sự kiện, UTM và ghi chú thiết lập trong phạm vi",
+      "Báo cáo hiệu quả cùng lịch sử đề xuất tối ưu"
+    ],
+    "metrics": "Theo dõi chi phí, CTR, CPC, số lượt liên hệ và CPL khi có dữ liệu phù hợp. Đánh giá thêm tỷ lệ khách đủ điều kiện và doanh thu chỉ khi doanh nghiệp cung cấp dữ liệu đối soát. Chi phí kết quả phụ thuộc ngành hàng, thị trường, ưu đãi và chất lượng tư vấn.",
+    "prep": "Doanh nghiệp cung cấp quyền tài khoản phù hợp, website hoặc trang đích, hình ảnh/video có quyền sử dụng, chính sách bán hàng và người duyệt nội dung. Giai đoạn thiết lập dự kiến 3–7 ngày làm việc sau khi nhận đủ thông tin; thời gian phê duyệt quảng cáo do nền tảng quyết định.",
+    "faq": [
+      [
+        "Phí dịch vụ có bao gồm ngân sách quảng cáo không?",
+        "Không. Phí quản lý và ngân sách media được tách riêng. Bạn có thể kiểm tra tiền quảng cáo ngay trong tài khoản doanh nghiệp sở hữu."
+      ],
+      [
+        "Có bắt buộc chạy cả Google Ads và Facebook Ads không?",
+        "Không. MarqByte đề xuất kênh theo hành vi khách hàng và ngân sách. Bắt đầu với một kênh phù hợp thường dễ đánh giá hơn khi dữ liệu còn ít."
+      ],
+      [
+        "Ai sở hữu tài khoản và dữ liệu quảng cáo?",
+        "Ưu tiên sử dụng tài khoản do doanh nghiệp sở hữu và cấp quyền cho MarqByte. Quyền truy cập, tài sản và quy trình bàn giao được xác nhận khi bắt đầu."
+      ],
+      [
+        "Có cam kết số đơn hàng hoặc CPL cố định không?",
+        "Không cam kết một mức kết quả cố định khi chưa có dữ liệu và khả năng kiểm soát toàn bộ quá trình bán hàng. Hai bên thống nhất mục tiêu thử nghiệm và cách đánh giá trước khi triển khai."
+      ],
+      [
+        "TikTok Ads hoặc Zalo Ads có triển khai được không?",
+        "TikTok Ads được xem xét trong gói đa kênh theo tài sản nội dung. Zalo Ads và các định dạng đặc thù được khảo sát, báo giá riêng; không mặc định có trong mọi gói."
+      ]
+    ]
+  },
+  {
+    "slug": "cham-soc-zalo-oa",
+    "art": "zalo",
+    "name": "Chăm sóc Zalo OA",
+    "title": "Dịch vụ chăm sóc Zalo OA cho doanh nghiệp",
+    "desc": "Chăm sóc Zalo Official Account: hoàn thiện hồ sơ, nội dung, menu và kịch bản tư vấn. Tham khảo các gói quản trị Zalo OA từ 1,8 triệu đồng/tháng.",
+    "lead": "Dịch vụ chăm sóc Zalo OA của MarqByte giúp doanh nghiệp hoàn thiện Zalo Official Account, duy trì nội dung và tổ chức luồng tiếp nhận khách hàng. Từ thông tin dịch vụ, menu liên hệ đến kịch bản trả lời, mỗi điểm chạm được xây dựng thống nhất với thương hiệu.",
+    "why": "Một OA đã tạo nhưng thiếu nội dung, menu khó sử dụng hoặc thông tin chưa cập nhật sẽ khiến khách hàng mất thêm thao tác để được hỗ trợ. Quản trị Zalo OA theo kế hoạch giúp doanh nghiệp có đầu mối chăm sóc kênh, biết nội dung nào đã duyệt và đường dẫn nào cần cập nhật. Đây cũng là nền tảng để phối hợp với đội tư vấn và các chiến dịch Marketing Online.",
+    "fit": "Phù hợp cửa hàng có khách quay lại, trường học cần cập nhật thông tin cho phụ huynh và doanh nghiệp dịch vụ muốn duy trì kênh liên hệ. Doanh nghiệp cần có người xử lý yêu cầu tư vấn và cung cấp thông tin chính xác về sản phẩm, chương trình hoặc lịch hoạt động.",
+    "scope": [
+      [
+        "Rà soát hồ sơ Zalo Official Account",
+        "Kiểm tra tên, mô tả, ảnh đại diện, ảnh bìa, số điện thoại và website. Hướng dẫn chuẩn bị thông tin xác thực khi cần; kết quả phê duyệt và điều kiện sử dụng do Zalo quyết định."
+      ],
+      [
+        "Xây dựng menu và đường dẫn liên hệ",
+        "Sắp xếp menu theo các hành động thiết thực như xem dịch vụ, đăng ký tư vấn, gọi điện hoặc truy cập website. Kiểm tra đường dẫn và nội dung đích để khách hàng hạn chế phải tìm lại thông tin."
+      ],
+      [
+        "Kế hoạch bài viết và thiết kế nội dung",
+        "Lên chủ đề theo sản phẩm, câu hỏi thường gặp và lịch truyền thông. Biên soạn bài viết, thiết kế ảnh tĩnh và gửi duyệt theo tháng; thông tin chuyên môn được doanh nghiệp xác nhận trước khi đăng."
+      ],
+      [
+        "Thiết lập phản hồi và hướng dẫn tư vấn",
+        "Chuẩn bị lời chào, câu trả lời cho những nhu cầu thường gặp và cách chuyển yêu cầu về nhân sự phụ trách. Những tính năng tự động chỉ được áp dụng khi OA và nền tảng đang sử dụng hỗ trợ."
+      ],
+      [
+        "Hỗ trợ nội dung gửi đến người quan tâm",
+        "Lập nội dung và lịch gửi trong giới hạn chức năng, quyền tài khoản và chính sách Zalo tại thời điểm triển khai. Không mặc định mỗi bài viết đều có thể gửi đến toàn bộ người quan tâm."
+      ],
+      [
+        "Theo dõi và bàn giao vận hành",
+        "Ghi nhận nội dung đã đăng, lượt xem và lượt tương tác có thể truy cập. Tổng hợp câu hỏi phổ biến để cải thiện bài viết, menu và hướng dẫn trả lời; bàn giao tài liệu cho đội ngũ tư vấn."
+      ]
+    ],
+    "plans": [
+      [
+        "Nền tảng",
+        "1.800.000",
+        "/tháng",
+        "Duy trì thông tin và nội dung cốt lõi.",
+        [
+          "Quản trị 01 Zalo OA",
+          "04 bài viết + 04 ảnh tĩnh/tháng",
+          "Rà soát hồ sơ lần đầu",
+          "Tối đa 03 nhóm menu",
+          "05 câu trả lời mẫu",
+          "Báo cáo nội dung hàng tháng"
+        ]
+      ],
+      [
+        "Đồng hành",
+        "3.200.000",
+        "/tháng",
+        "Tăng chiều sâu nội dung và hướng dẫn chăm sóc.",
+        [
+          "Quản trị 01 Zalo OA",
+          "08 bài viết + 08 ảnh tĩnh/tháng",
+          "Tối đa 05 nhóm menu",
+          "10 câu trả lời mẫu",
+          "Chuẩn bị tối đa 02 nội dung gửi/tháng",
+          "Báo cáo + 01 buổi trao đổi/tháng"
+        ]
+      ],
+      [
+        "Kết nối",
+        "5.000.000",
+        "/tháng",
+        "Phối hợp OA với quy trình tiếp nhận tư vấn.",
+        [
+          "Quản trị 01 Zalo OA",
+          "12 bài viết + 12 ảnh tĩnh/tháng",
+          "Menu và liên kết đến form có sẵn",
+          "15 câu trả lời mẫu",
+          "Chuẩn bị tối đa 04 nội dung gửi/tháng",
+          "Báo cáo + 02 buổi trao đổi/tháng"
+        ]
+      ]
+    ],
+    "rows": [
+      [
+        "Bài viết & ảnh tĩnh/tháng",
+        "04 + 04",
+        "08 + 08",
+        "12 + 12"
+      ],
+      [
+        "Câu trả lời mẫu",
+        "05",
+        "10",
+        "15"
+      ],
+      [
+        "Nội dung gửi chuẩn bị/tháng",
+        "Không gồm",
+        "Tối đa 02",
+        "Tối đa 04"
+      ],
+      [
+        "Trao đổi định kỳ",
+        "Qua email",
+        "01 buổi/tháng",
+        "02 buổi/tháng"
+      ]
+    ],
+    "note": "Chưa gồm phí gói OA, phí tin nhắn, ZNS, quảng cáo Zalo, chatbot trả phí, API và phần mềm CRM. Khả năng gửi tin phụ thuộc chính sách, hạn mức và điều kiện OA. Các gói không bao gồm nhân sự trực inbox, gọi điện, chốt đơn hoặc hỗ trợ 24/7.",
+    "out": [
+      "Hồ sơ OA và danh sách menu đã kiểm tra",
+      "Lịch nội dung, bài viết và ảnh được doanh nghiệp duyệt",
+      "Bộ câu trả lời mẫu cho nhân sự tư vấn",
+      "Báo cáo hoạt động và hướng dẫn tiếp quản OA"
+    ],
+    "metrics": "Theo dõi bài đăng đã thực hiện, lượt xem, lượt tương tác, người quan tâm và yêu cầu tư vấn trong phạm vi dữ liệu truy cập được. Các số liệu được đọc cùng bối cảnh chương trình truyền thông; không dùng số người quan tâm để thay cho doanh thu.",
+    "prep": "Cần quyền quản trị OA phù hợp, bộ nhận diện, mô tả dịch vụ và danh sách người tiếp nhận tư vấn. Dự kiến 3–5 ngày làm việc cho khâu rà soát, lên kế hoạch đầu tiên sau khi nhận đủ thông tin; OA cần xác thực có thể cần thêm thời gian từ nền tảng.",
+    "faq": [
+      [
+        "Dịch vụ có bao gồm trực tin nhắn không?",
+        "Các gói tập trung quản trị nội dung và thiết lập kịch bản. Trực inbox theo ca hoặc hỗ trợ bán hàng cần thỏa thuận riêng về thời gian, nhân sự và cách chuyển yêu cầu."
+      ],
+      [
+        "Chưa có Zalo OA có dùng dịch vụ được không?",
+        "Có thể bắt đầu từ hướng dẫn tạo OA và chuẩn bị hồ sơ. Quyền sở hữu thuộc doanh nghiệp; điều kiện xác thực và phê duyệt do Zalo quy định."
+      ],
+      [
+        "Phí tin nhắn ZNS đã nằm trong bảng giá chưa?",
+        "Chưa. ZNS, gói tài khoản OA và các dịch vụ nền tảng được tính riêng theo điều kiện thực tế. MarqByte làm rõ trước khi đề xuất sử dụng."
+      ],
+      [
+        "Có gửi tin nhắn không giới hạn cho khách hàng không?",
+        "Không. Việc gửi tin phải phù hợp quyền tài khoản, điều kiện người nhận và chính sách hiện hành. Gói dịch vụ tính công chuẩn bị nội dung, không bán hạn mức tin nhắn."
+      ],
+      [
+        "Có kết nối Zalo OA với CRM hoặc website không?",
+        "Có thể khảo sát khả năng kết nối qua tính năng hoặc API được hỗ trợ. Tích hợp tùy chỉnh được tách thành phạm vi và báo giá riêng."
+      ]
+    ]
+  },
+  {
+    "slug": "website-seo",
+    "art": "seo",
+    "name": "Chăm sóc Website & SEO",
+    "title": "Dịch vụ chăm sóc website & SEO tổng thể cho SME",
+    "desc": "Chăm sóc website, audit SEO kỹ thuật, nghiên cứu từ khóa và viết bài SEO. Xem gói quản trị nội dung, tối ưu on-page từ 3 triệu đồng/tháng tại MarqByte.",
+    "lead": "MarqByte cung cấp dịch vụ chăm sóc website và SEO cho doanh nghiệp cần duy trì nội dung, xử lý vấn đề nền tảng và cải thiện khả năng xuất hiện trên công cụ tìm kiếm. Kế hoạch kết hợp SEO kỹ thuật, tối ưu on-page, nghiên cứu từ khóa và nội dung phục vụ nhu cầu người đọc.",
+    "why": "Website ít được cập nhật, trang dịch vụ chưa rõ thông tin, bài viết trùng ý hoặc liên kết nội bộ rời rạc đều có thể ảnh hưởng trải nghiệm người dùng. Thay vì chỉ tăng số bài, MarqByte bắt đầu bằng việc kiểm tra cấu trúc và nội dung hiện có, sau đó ưu tiên những trang gắn với sản phẩm, dịch vụ và mục tiêu liên hệ của doanh nghiệp.",
+    "fit": "Phù hợp doanh nghiệp có website giới thiệu, website dịch vụ hoặc danh mục sản phẩm vừa và nhỏ. Website thương mại điện tử lớn, hệ thống nhiều ngôn ngữ hoặc dự án chuyển tên miền cần khảo sát chuyên sâu và báo giá riêng trước khi áp dụng gói định kỳ.",
+    "scope": [
+      [
+        "Audit website và xác định việc ưu tiên",
+        "Rà soát khả năng truy cập, mã trạng thái, trang lỗi, robots, sitemap và liên kết nội bộ trong phạm vi khảo sát. Phân loại vấn đề theo mức ảnh hưởng và khả năng xử lý; các thay đổi cần quyền server hoặc lập trình được ghi rõ."
+      ],
+      [
+        "Nghiên cứu từ khóa theo nhu cầu tìm kiếm",
+        "Nhóm từ khóa về sản phẩm, dịch vụ, câu hỏi và nhu cầu so sánh. Xây dựng bản đồ chủ đề và trang đích để tránh nhiều bài cạnh tranh cùng một ý định tìm kiếm; không chọn từ khóa chỉ vì dễ đưa vào tiêu đề."
+      ],
+      [
+        "Tối ưu on-page cho trang quan trọng",
+        "Biên tập title, meta description, H1–H3, nội dung, mô tả ảnh và liên kết nội bộ. Ưu tiên trang dịch vụ hoặc danh mục cần giải thích rõ phạm vi, lợi ích và cách liên hệ; giữ câu chữ tự nhiên, không nhồi từ khóa."
+      ],
+      [
+        "Viết bài SEO có thông tin hữu ích",
+        "Xây dựng dàn ý, nội dung và ảnh minh họa phù hợp với từng chủ đề. Thông số sản phẩm, giá, chính sách và thông tin chuyên môn cần được kiểm chứng bởi doanh nghiệp; bài viết được duyệt trước khi xuất bản."
+      ],
+      [
+        "Chăm sóc nội dung và cập nhật website",
+        "Đăng bài, chỉnh thông tin doanh nghiệp và cập nhật nội dung đã thống nhất. Kiểm tra các liên kết liên hệ, hình ảnh và giao diện trang được chỉnh sửa. Bảo trì server, xử lý mã độc hoặc viết chức năng mới nằm ngoài gói nội dung."
+      ],
+      [
+        "Theo dõi Search Console và báo cáo SEO",
+        "Đọc dữ liệu truy vấn, trang đích, lượt hiển thị, lượt nhấp và các vấn đề lập chỉ mục khi được cấp quyền. Đối chiếu với GA4 và tiến độ công việc để xây dựng kế hoạch tháng tiếp theo, thay vì chỉ báo cáo số bài đã đăng."
+      ]
+    ],
+    "plans": [
+      [
+        "Chăm sóc nền tảng",
+        "3.000.000",
+        "/tháng",
+        "Cho website cần cập nhật đều và sửa on-page cơ bản.",
+        [
+          "01 website, khảo sát tối đa 100 URL",
+          "04 bài SEO mới/tháng",
+          "Tối ưu 04 URL hiện có/tháng",
+          "04 ảnh đại diện bài viết/tháng",
+          "Báo cáo Search Console hàng tháng",
+          "01 kế hoạch nội dung theo tháng"
+        ]
+      ],
+      [
+        "SEO phát triển",
+        "6.000.000",
+        "/tháng",
+        "Mở rộng chủ đề và hoàn thiện trang dịch vụ.",
+        [
+          "01 website, khảo sát tối đa 300 URL",
+          "08 bài SEO mới/tháng",
+          "Tối ưu 08 URL hiện có/tháng",
+          "08 ảnh đại diện bài viết/tháng",
+          "Bản đồ từ khóa + liên kết nội bộ",
+          "Báo cáo + 01 buổi trao đổi/tháng"
+        ]
+      ],
+      [
+        "SEO đồng hành",
+        "10.000.000",
+        "/tháng",
+        "Cho website có nhiều nhóm sản phẩm hoặc dịch vụ.",
+        [
+          "01 website, khảo sát tối đa 1.000 URL",
+          "12 bài SEO mới/tháng",
+          "Tối ưu 12 URL hiện có/tháng",
+          "12 ảnh đại diện bài viết/tháng",
+          "Kế hoạch cụm chủ đề ưu tiên",
+          "Báo cáo + 02 buổi trao đổi/tháng"
+        ]
+      ]
+    ],
+    "rows": [
+      [
+        "Bài SEO mới/tháng",
+        "04",
+        "08",
+        "12"
+      ],
+      [
+        "URL tối ưu hiện có/tháng",
+        "04",
+        "08",
+        "12"
+      ],
+      [
+        "Giới hạn URL khảo sát",
+        "100",
+        "300",
+        "1.000"
+      ],
+      [
+        "Buổi trao đổi/tháng",
+        "Qua email",
+        "01",
+        "02"
+      ]
+    ],
+    "note": "Mỗi bài dự kiến 800–1.200 từ theo chủ đề, không kéo dài chỉ để đủ số từ; gồm tối đa 02 lượt chỉnh sửa theo dàn ý đã duyệt. Chưa gồm backlink trả phí, báo PR, tên miền, hosting, lập trình, khôi phục mã độc, nhập liệu sản phẩm số lượng lớn hoặc SEO đa ngôn ngữ.",
+    "out": [
+      "Bản rà soát hiện trạng và danh sách ưu tiên SEO",
+      "Bản đồ từ khóa, lịch nội dung và dàn ý được duyệt",
+      "Bài viết đã xuất bản, URL đã tối ưu và ảnh đại diện",
+      "Báo cáo dữ liệu truy vấn, trang đích và đề xuất cải thiện"
+    ],
+    "metrics": "Đánh giá tiến độ xử lý vấn đề, chất lượng nội dung, lượt hiển thị và nhấp tự nhiên, truy vấn liên quan, lượt liên hệ từ website khi đo được. Google quyết định việc lập chỉ mục và xếp hạng; thay đổi có thể cần thời gian và không đồng nghĩa với tăng trưởng ngay sau khi đăng bài.",
+    "prep": "Doanh nghiệp cung cấp quyền CMS, Search Console, GA4 nếu có và thông tin sản phẩm/dịch vụ chính xác. Giai đoạn khảo sát ban đầu dự kiến 5–10 ngày làm việc. Kế hoạch thường được rà soát theo tháng và đánh giá xu hướng qua nhiều chu kỳ, thay vì hứa hẹn lên top trong một thời hạn cố định.",
+    "faq": [
+      [
+        "Chăm sóc website có giống SEO tổng thể không?",
+        "Chăm sóc website thiên về cập nhật nội dung và duy trì thông tin. SEO bổ sung nghiên cứu tìm kiếm, cấu trúc, on-page và theo dõi khả năng xuất hiện tự nhiên. Phạm vi hai phần được xác định trong từng gói."
+      ],
+      [
+        "Có cam kết từ khóa lên top Google không?",
+        "Không cam kết vị trí cố định. MarqByte cam kết thực hiện các đầu việc và báo cáo trong phạm vi đã thống nhất, đồng thời giải thích yếu tố có thể ảnh hưởng kết quả."
+      ],
+      [
+        "Website chưa có Search Console có triển khai được không?",
+        "Có. Có thể hỗ trợ thiết lập và xác minh khi doanh nghiệp cung cấp quyền cần thiết. Dữ liệu sẽ được tích lũy sau khi công cụ hoạt động, không tự có lịch sử đầy đủ trước đó."
+      ],
+      [
+        "Gói SEO có bao gồm sửa lỗi code không?",
+        "Bao gồm chỉnh sửa trong CMS nếu phù hợp quyền và chức năng hiện có. Các lỗi cần lập trình, thay cấu trúc hệ thống hoặc chỉnh server sẽ được lập danh sách và báo giá riêng."
+      ],
+      [
+        "Có thể chỉ thuê audit SEO một lần không?",
+        "Có. Audit độc lập được báo giá theo số URL, độ phức tạp và đầu ra cần bàn giao. Bạn không bắt buộc đăng ký gói chăm sóc website theo tháng."
+      ]
+    ]
+  },
+  {
+    "slug": "marketing-tong-the",
+    "art": "marketing",
+    "name": "Marketing tổng thể",
+    "title": "Dịch vụ Marketing tổng thể & phòng Marketing thuê ngoài",
+    "desc": "Marketing tổng thể cho SME: kế hoạch, nội dung, quảng cáo và báo cáo đa kênh. Xem gói phòng Marketing thuê ngoài từ 8 triệu đồng/tháng tại MarqByte.",
+    "lead": "Dịch vụ Marketing tổng thể của MarqByte giúp doanh nghiệp kết nối nội dung, quảng cáo, website và dữ liệu trong một kế hoạch chung. Bạn có thể hợp tác như một đội Digital thuê ngoài, với đầu mối phối hợp, lịch triển khai và phạm vi công việc rõ ràng theo tháng.",
+    "why": "Khi Fanpage đăng bài một hướng, quảng cáo dùng thông điệp khác và website chưa cập nhật chương trình, doanh nghiệp dễ mất tính nhất quán trong hành trình khách hàng. Marketing thuê ngoài phù hợp khi bạn cần vừa có định hướng vừa có người triển khai, nhưng chưa muốn tuyển đủ nhân sự cho từng kênh. Điều cần thống nhất trước là ưu tiên kinh doanh và năng lực thực hiện.",
+    "fit": "Phù hợp SME, doanh nghiệp dịch vụ, đơn vị giáo dục và cửa hàng có kế hoạch truyền thông thường xuyên. Doanh nghiệp cần một người duyệt thông tin, phản hồi nội dung và xử lý khách hàng tiềm năng; MarqByte phụ trách Digital trong phạm vi thỏa thuận, không thay bộ phận bán hàng hoặc quản trị toàn bộ doanh nghiệp.",
+    "scope": [
+      [
+        "Khảo sát mô hình kinh doanh và hiện trạng",
+        "Làm rõ sản phẩm, khách hàng, khu vực, điểm khác biệt và các kênh đang vận hành. Kiểm tra tài sản sẵn có, nội dung, dữ liệu và trở ngại trong quy trình tiếp nhận khách hàng để xác định việc có thể bắt đầu ngay."
+      ],
+      [
+        "Lập kế hoạch Digital Marketing",
+        "Chọn mục tiêu, kênh ưu tiên, chủ đề nội dung và ngân sách dự kiến. Kế hoạch thể hiện đầu việc, người chịu trách nhiệm, lịch duyệt và cách đánh giá; không biến mọi kênh thành việc bắt buộc nếu chưa có nguồn lực."
+      ],
+      [
+        "Sản xuất và đồng bộ nội dung",
+        "Triển khai bài Social Media, hình ảnh tĩnh và bài website theo số lượng từng gói. Thống nhất thông điệp giữa bài đăng, quảng cáo và trang đích; thông tin bán hàng hoặc chuyên môn được doanh nghiệp duyệt trước khi sử dụng."
+      ],
+      [
+        "Quản lý quảng cáo theo mục tiêu",
+        "Thiết lập và quản lý chiến dịch trên số nền tảng đã thống nhất. Kiểm tra đường dẫn, nội dung, giới hạn ngân sách và dữ liệu chuyển đổi; lịch triển khai được phối hợp với chương trình ưu đãi hoặc sự kiện thực tế."
+      ],
+      [
+        "Tổ chức dữ liệu và báo cáo định kỳ",
+        "Xây dựng bảng theo dõi các hoạt động Digital, tổng hợp dữ liệu sẵn có từ kênh và phản hồi khách hàng. Phân biệt việc đã hoàn thành, kết quả quan sát được và yếu tố cần doanh nghiệp hỗ trợ."
+      ],
+      [
+        "Điều phối và cải thiện cách vận hành",
+        "Duy trì đầu mối làm việc, ghi nhận yêu cầu và rà soát kế hoạch. Những phát sinh như website mới, video quay tại địa điểm hoặc tích hợp CRM được tách thành dự án để không làm mờ phạm vi gói tháng."
+      ]
+    ],
+    "plans": [
+      [
+        "Digital nền tảng",
+        "8.000.000",
+        "/tháng",
+        "Cho doanh nghiệp cần đồng bộ một kênh Social và quảng cáo.",
+        [
+          "08 bài Social + 08 ảnh tĩnh/tháng",
+          "04 bài website/tháng",
+          "Quản lý quảng cáo 01 nền tảng",
+          "Tối đa 03 chiến dịch, media ≤ 20 triệu",
+          "01 kế hoạch và báo cáo/tháng",
+          "01 buổi trao đổi/tháng"
+        ]
+      ],
+      [
+        "Digital phát triển",
+        "14.000.000",
+        "/tháng",
+        "Kết nối nội dung, quảng cáo và website theo kế hoạch chung.",
+        [
+          "12 bài Social + 12 ảnh tĩnh/tháng",
+          "06 bài website/tháng",
+          "Quản lý quảng cáo tối đa 02 nền tảng",
+          "Tối đa 06 chiến dịch, media ≤ 50 triệu",
+          "Rà soát 05 URL quan trọng/tháng",
+          "02 buổi trao đổi/tháng"
+        ]
+      ],
+      [
+        "Đội Digital đồng hành",
+        "22.000.000",
+        "/tháng",
+        "Cho hoạt động đa kênh cần phối hợp thường xuyên.",
+        [
+          "16 bài Social + 16 ảnh tĩnh/tháng",
+          "08 bài website/tháng",
+          "Quản lý quảng cáo tối đa 03 nền tảng",
+          "Tối đa 10 chiến dịch, media ≤ 100 triệu",
+          "Rà soát 10 URL quan trọng/tháng",
+          "04 buổi trao đổi/tháng"
+        ]
+      ]
+    ],
+    "rows": [
+      [
+        "Bài Social + ảnh/tháng",
+        "08 + 08",
+        "12 + 12",
+        "16 + 16"
+      ],
+      [
+        "Bài website/tháng",
+        "04",
+        "06",
+        "08"
+      ],
+      [
+        "Nền tảng quảng cáo",
+        "01",
+        "Tối đa 02",
+        "Tối đa 03"
+      ],
+      [
+        "Trao đổi định kỳ/tháng",
+        "01 buổi",
+        "02 buổi",
+        "04 buổi"
+      ]
+    ],
+    "note": "Gói kết hợp có hạn mức riêng, không cộng toàn bộ quyền lợi của các gói dịch vụ lẻ. Bài Social là nội dung gốc cho 01 kênh chính; đăng lại nguyên nội dung lên kênh phụ chỉ theo thỏa thuận. Chưa gồm ngân sách quảng cáo, quay chụp, KOL/KOC, PR, Zalo OA, công cụ trả phí và website mới. Bài website dự kiến 800–1.200 từ, tối đa 02 lượt chỉnh sửa/bài.",
+    "out": [
+      "Kế hoạch Marketing theo tháng và lịch duyệt chung",
+      "Nội dung Social, ảnh tĩnh và bài website trong hạn mức",
+      "Cấu trúc chiến dịch và bảng theo dõi ngân sách",
+      "Báo cáo tổng hợp, biên bản trao đổi và việc ưu tiên tháng sau"
+    ],
+    "metrics": "Đối chiếu tiến độ với mục tiêu thực tế: nội dung đã xuất bản, lưu lượng website, chi phí quảng cáo, nhu cầu tư vấn và chất lượng khách hàng. Các chỉ số được chọn theo mô hình kinh doanh; doanh thu được đánh giá khi có dữ liệu từ bộ phận bán hàng, không suy ra chỉ từ lượt tương tác.",
+    "prep": "Cần một đầu mối doanh nghiệp có quyền duyệt, tài sản thương hiệu và quyền truy cập các kênh liên quan. Dự kiến 7–10 ngày làm việc để khảo sát và thống nhất kế hoạch đầu tiên. Hai bên nên dành ít nhất một chu kỳ tháng để vận hành, rà soát và quyết định bước tiếp theo.",
+    "faq": [
+      [
+        "Phòng Marketing thuê ngoài làm thay những việc nào?",
+        "MarqByte phụ trách các hoạt động Digital được ghi trong gói và kế hoạch được duyệt. Tuyển dụng, bán hàng, trực hotline, tổ chức sự kiện và Marketing offline không tự động thuộc phạm vi."
+      ],
+      [
+        "Gói tổng thể đã gồm tiền quảng cáo chưa?",
+        "Chưa. Ngân sách media được tách riêng khỏi phí dịch vụ. Các công cụ, sản xuất video và bên thứ ba cũng cần được duyệt ngân sách trước."
+      ],
+      [
+        "Có thể phối hợp cùng nhân sự Marketing nội bộ không?",
+        "Có. Doanh nghiệp có thể giữ phần chiến lược, chuyên môn hoặc sản xuất tại chỗ; MarqByte nhận các đầu việc bổ sung theo phân công đã thống nhất."
+      ],
+      [
+        "Có được đổi số bài Social sang công việc khác không?",
+        "Có thể trao đổi trước kỳ triển khai. Việc quy đổi cần thống nhất khối lượng và chi phí, không tự động áp dụng theo số lượng tương đương."
+      ],
+      [
+        "Sau một tháng có thể đánh giá kết quả thế nào?",
+        "Rà soát tiến độ, nội dung, trạng thái đo lường và dữ liệu chiến dịch của tháng. Các kết quả dài hạn như SEO hoặc mức độ nhận biết cần nhiều chu kỳ hơn để quan sát xu hướng."
+      ]
+    ]
+  },
+  {
+    "slug": "thiet-ke-website",
+    "art": "website",
+    "name": "Thiết kế Website & Landing Page",
+    "title": "Thiết kế website doanh nghiệp & Landing Page theo yêu cầu",
+    "desc": "Thiết kế website doanh nghiệp, landing page responsive và website có CMS. Xem phạm vi, quy trình bàn giao và bảng giá từ 3,5 triệu đồng/dự án.",
+    "lead": "MarqByte thiết kế website doanh nghiệp và Landing Page theo mục tiêu giới thiệu dịch vụ, thu thập nhu cầu tư vấn hoặc hỗ trợ chiến dịch quảng cáo. Nội dung, giao diện responsive và các điểm liên hệ được xây dựng cùng nhau để khách truy cập dễ hiểu và dễ hành động.",
+    "why": "Một website đẹp cần đi cùng cấu trúc thông tin rõ ràng: doanh nghiệp làm gì, phù hợp với ai, phạm vi dịch vụ ra sao và liên hệ bằng cách nào. Landing Page tập trung vào một mục tiêu, trong khi website nhiều trang phù hợp khi cần giới thiệu nhiều nhóm dịch vụ và phát triển nội dung SEO theo thời gian. MarqByte tư vấn lựa chọn theo cách bạn sẽ sử dụng và quản trị sau bàn giao.",
+    "fit": "Phù hợp doanh nghiệp mới cần website giới thiệu, đơn vị dịch vụ muốn làm lại trang hiện có và đội Marketing cần trang đích quảng cáo. Website bán hàng có thanh toán, hệ thống thành viên, nhiều chi nhánh hoặc quy trình đặt chỗ phức tạp cần được khảo sát riêng.",
+    "scope": [
+      [
+        "Khảo sát mục tiêu và cấu trúc nội dung",
+        "Xác định người truy cập, hành động chính và danh sách trang. Xây dựng sitemap, thứ tự các phần và thông điệp ưu tiên trước khi đi vào màu sắc, hiệu ứng hoặc kỹ thuật triển khai."
+      ],
+      [
+        "Thiết kế giao diện theo thương hiệu",
+        "Sử dụng màu sắc, logo, kiểu chữ và phong cách phù hợp. Dựng giao diện để duyệt trên desktop và mobile, làm rõ vị trí dịch vụ, lợi ích, giá tham khảo và các nút liên hệ."
+      ],
+      [
+        "Triển khai responsive cho nhiều màn hình",
+        "Xây dựng bố cục tự điều chỉnh, menu mobile và các thành phần tương tác trong phạm vi. Rà soát chữ tiếng Việt, kích thước ảnh và thao tác bấm để nội dung không bị cắt hoặc khó đọc."
+      ],
+      [
+        "SEO nền tảng và cấu trúc trang",
+        "Thiết lập title, meta description, heading, tên ảnh và liên kết nội bộ. Chuẩn bị cấu trúc URL, canonical và sitemap theo tên miền đã xác nhận; không coi hoàn thiện kỹ thuật là cam kết thứ hạng tìm kiếm."
+      ],
+      [
+        "Form tư vấn và tracking theo phạm vi",
+        "Tạo form hoặc liên kết liên hệ phù hợp loại website. Dịch vụ nhận form, API, tài khoản GA4/GTM và các quyền liên quan do doanh nghiệp cung cấp; kiểm tra luồng gửi thực tế khi phần kết nối thuộc hợp đồng."
+      ],
+      [
+        "Kiểm thử, bàn giao và hướng dẫn",
+        "Kiểm tra nội dung, liên kết, hiển thị và tính năng theo checklist nghiệm thu. Bàn giao mã nguồn, tài khoản hoặc hướng dẫn quản trị đúng loại gói; ghi nhận thời gian hỗ trợ sửa lỗi trong phạm vi đã duyệt."
+      ]
+    ],
+    "plans": [
+      [
+        "Landing Page",
+        "3.500.000",
+        "/dự án",
+        "Một trang đích tập trung giới thiệu và nhận tư vấn.",
+        [
+          "01 landing page, tối đa 08 khối nội dung",
+          "HTML/CSS/JS, hiển thị responsive",
+          "01 form nối dịch vụ nhận form của khách",
+          "Nút gọi điện, Zalo và SEO nền tảng",
+          "02 vòng chỉnh sửa theo brief đã duyệt",
+          "Dự kiến 7–10 ngày làm việc"
+        ]
+      ],
+      [
+        "Website giới thiệu",
+        "7.500.000",
+        "/dự án",
+        "Website nhiều trang cho doanh nghiệp dịch vụ.",
+        [
+          "Tối đa 07 trang nội dung",
+          "HTML/CSS/JS, không có CMS quản trị",
+          "01 ngôn ngữ, responsive desktop/mobile",
+          "01 form + hướng dẫn triển khai",
+          "Title, description, canonical và sitemap",
+          "Dự kiến 15–20 ngày làm việc"
+        ]
+      ],
+      [
+        "Website có CMS",
+        "15.000.000",
+        "/dự án",
+        "Dành cho doanh nghiệp cần tự cập nhật nội dung.",
+        [
+          "Tối đa 10 mẫu trang giao diện",
+          "CMS quản lý trang và bài viết cơ bản",
+          "02 vai trò: quản trị và biên tập",
+          "Nhập tối đa 15 trang/bài ban đầu",
+          "Hướng dẫn quản trị + 02 vòng chỉnh sửa",
+          "Dự kiến 25–35 ngày làm việc"
+        ]
+      ]
+    ],
+    "rows": [
+      [
+        "Quy mô giao diện",
+        "01 trang / 08 khối",
+        "Tối đa 07 trang",
+        "Tối đa 10 mẫu trang"
+      ],
+      [
+        "CMS quản trị",
+        "Không",
+        "Không",
+        "Có"
+      ],
+      [
+        "Thời gian dự kiến",
+        "7–10 ngày",
+        "15–20 ngày",
+        "25–35 ngày"
+      ],
+      [
+        "Sửa lỗi theo phạm vi",
+        "30 ngày",
+        "30 ngày",
+        "60 ngày"
+      ]
+    ],
+    "note": "Giá chưa gồm tên miền, hosting/VPS, bản quyền theme/plugin, dịch vụ nhận form trả phí, nội dung viết mới toàn bộ, chụp ảnh và tích hợp phức tạp. Doanh nghiệp cung cấp nội dung và tài sản hợp lệ; có hỗ trợ biên tập theo bố cục đã duyệt. Thời gian tính sau khi đủ nội dung và brief; sửa lỗi không bao gồm yêu cầu tính năng mới.",
+    "out": [
+      "Sitemap, danh sách trang và brief giao diện được duyệt",
+      "Website responsive cùng các tính năng trong phạm vi",
+      "Mã nguồn, tài liệu triển khai hoặc tài khoản CMS",
+      "Checklist nghiệm thu, hướng dẫn dùng và điều kiện hỗ trợ"
+    ],
+    "metrics": "Nghiệm thu dựa trên đúng nội dung, đúng phạm vi chức năng, liên kết hoạt động và hiển thị phù hợp. Sau khi website hoạt động, có thể theo dõi lượt bấm liên hệ, lượt gửi form và nguồn truy cập khi tracking đã được triển khai. Tỷ lệ chuyển đổi còn phụ thuộc sản phẩm, nội dung và chất lượng lưu lượng.",
+    "prep": "Chuẩn bị logo, thông tin doanh nghiệp, mô tả dịch vụ, ảnh có quyền sử dụng và người duyệt. Nếu có tên miền hoặc hosting, cần quyền cấu hình phù hợp khi triển khai. Hai vòng chỉnh sửa gồm các thay đổi trong brief; đổi định hướng thiết kế hoặc bổ sung trang sau duyệt được báo giá riêng.",
+    "faq": [
+      [
+        "Nên làm Landing Page hay website nhiều trang?",
+        "Landing Page phù hợp một sản phẩm, ưu đãi hoặc mục tiêu quảng cáo. Website nhiều trang phù hợp giới thiệu nhiều dịch vụ, bài viết và phát triển tìm kiếm lâu dài. Hai hình thức có thể dùng kết hợp."
+      ],
+      [
+        "Website HTML có tự sửa nội dung được không?",
+        "Có thể sửa trong mã nguồn nhưng cần biết thao tác cơ bản hoặc nhờ người hỗ trợ. Nếu muốn cập nhật bài viết qua màn hình quản trị, nên chọn gói CMS."
+      ],
+      [
+        "Giá có bao gồm tên miền và hosting không?",
+        "Chưa. Hạ tầng được tư vấn và tính riêng để doanh nghiệp chủ động quyền sở hữu và chi phí gia hạn. Website tĩnh có thể dùng nền tảng lưu trữ phù hợp như GitHub Pages."
+      ],
+      [
+        "Website có form là gửi được dữ liệu ngay không?",
+        "Form cần điểm nhận dữ liệu hoặc dịch vụ email/backend. Gói có công kết nối một dịch vụ nhận form của khách; phí nền tảng và tính năng đặc thù được trao đổi riêng."
+      ],
+      [
+        "Có bàn giao source code không?",
+        "Có bàn giao mã nguồn do MarqByte phát triển trong phạm vi hợp đồng. Thành phần của bên thứ ba tuân theo giấy phép riêng và được làm rõ trong tài liệu bàn giao."
+      ]
+    ]
+  },
+  {
+    "slug": "cong-cu-doanh-nghiep",
+    "art": "tools",
+    "name": "Xây dựng công cụ doanh nghiệp",
+    "title": "Xây dựng công cụ doanh nghiệp & Marketing Automation",
+    "desc": "Phát triển công cụ nội bộ, xử lý dữ liệu và Marketing Automation theo quy trình thực tế. Tham khảo gói prototype, tích hợp API và web app từ 5 triệu đồng.",
+    "lead": "MarqByte xây dựng công cụ doanh nghiệp theo yêu cầu để hỗ trợ xử lý dữ liệu, chuẩn hóa thao tác và tự động hóa công việc phù hợp. Bắt đầu bằng một quy trình có đầu vào, đầu ra rõ ràng, bạn có thể kiểm chứng giá trị trước khi mở rộng thành ứng dụng nội bộ hoặc hệ thống tích hợp.",
+    "why": "Đội ngũ thường phải đổi định dạng file, kiểm tra URL, xử lý hình sản phẩm hoặc tổng hợp báo cáo từ nhiều nguồn. Công cụ nhỏ được xây dựng theo đúng nghiệp vụ có thể giảm thao tác lặp lại và hạn chế sai sót nhập liệu. Tuy nhiên, cần phân biệt prototype dùng thử với phần mềm vận hành nhiều người có phân quyền, sao lưu và hỗ trợ thường xuyên.",
+    "fit": "Phù hợp đội Marketing, vận hành, giáo dục và thương mại điện tử có tác vụ thủ công lặp lại. Dự án liên quan dữ liệu nhạy cảm, kế toán, thanh toán, hệ thống vận hành trọng yếu hoặc quy mô lớn cần thẩm định sâu hơn; không mặc định triển khai bằng gói prototype cơ bản.",
+    "scope": [
+      [
+        "Khảo sát và mô tả quy trình",
+        "Xác định ai sử dụng, dữ liệu đến từ đâu, các bước đang làm và kết quả mong muốn. Ghi nhận ngoại lệ, khối lượng dữ liệu, quyền truy cập và tiêu chí nghiệm thu trước khi chọn công nghệ."
+      ],
+      [
+        "Xử lý file và dữ liệu nghiệp vụ",
+        "Có thể xây dựng tác vụ chuẩn hóa CSV/Excel, kiểm tra URL, đối chiếu danh sách hoặc chuẩn bị dữ liệu đăng sản phẩm. Mỗi công cụ được giới hạn loại file, số lượng và quy tắc rõ ràng để dễ kiểm thử."
+      ],
+      [
+        "Công cụ Marketing và báo cáo",
+        "Phát triển giao diện nhập dữ liệu, bộ kiểm tra nội dung hoặc bảng tổng hợp phục vụ công việc. Chỉ hiển thị chỉ số từ dữ liệu có nguồn; không tạo báo cáo trông hoàn chỉnh khi API chưa cung cấp đầy đủ thông tin."
+      ],
+      [
+        "Tích hợp API và tự động hóa",
+        "Kết nối nguồn dữ liệu qua API chính thức hoặc phương thức được phép khi có tài khoản, quyền và tài liệu phù hợp. Kiểm tra xác thực, hạn mức, lỗi và chi phí trước khi cam kết lịch chạy tự động."
+      ],
+      [
+        "Prototype và kiểm thử cùng người dùng",
+        "Dựng bản chạy được để thử trên bộ dữ liệu mẫu. Người sử dụng kiểm tra các tình huống chính, dữ liệu sai và thao tác phục hồi; ghi nhận điểm chưa phù hợp trước khi nghiệm thu hoặc mở rộng."
+      ],
+      [
+        "Bàn giao và kế hoạch vận hành",
+        "Bàn giao mã nguồn, cấu hình mẫu không chứa bí mật và hướng dẫn sử dụng. Với ứng dụng nội bộ, xác định nơi chạy, người quản trị, quyền tài khoản và phương án sao lưu theo phạm vi đã thống nhất."
+      ]
+    ],
+    "plans": [
+      [
+        "Prototype tác vụ",
+        "5.000.000",
+        "/dự án",
+        "Kiểm chứng một bài toán cụ thể trên máy tính.",
+        [
+          "01 quy trình đầu vào → xử lý → đầu ra",
+          "Tối đa 02 định dạng file đầu vào",
+          "Chạy local cho 01 người dùng",
+          "Không API ngoài, không phân quyền",
+          "Source code + hướng dẫn chạy",
+          "Dự kiến 10–15 ngày làm việc"
+        ]
+      ],
+      [
+        "Công cụ tích hợp",
+        "12.000.000",
+        "/dự án",
+        "Kết nối dữ liệu và xử lý nhiều bước liên quan.",
+        [
+          "Tối đa 03 luồng xử lý có liên quan",
+          "01 tích hợp API có tài liệu phù hợp",
+          "Tối đa 03 màn hình thao tác",
+          "Ghi log lỗi và xuất kết quả",
+          "Bộ dữ liệu kiểm thử + tài liệu bàn giao",
+          "Dự kiến 20–30 ngày làm việc"
+        ]
+      ],
+      [
+        "Web app nội bộ",
+        "25.000.000",
+        "/dự án",
+        "Nền tảng nhỏ cho một đội ngũ cùng vận hành.",
+        [
+          "Tối đa 05 màn hình nghiệp vụ",
+          "Tối đa 03 vai trò người dùng",
+          "01 hệ thống dữ liệu, 01 API ngoài",
+          "Đăng nhập, phân quyền, nhật ký cơ bản",
+          "Cấu hình triển khai + hướng dẫn sao lưu",
+          "Dự kiến 30–45 ngày làm việc"
+        ]
+      ]
+    ],
+    "rows": [
+      [
+        "Quy mô",
+        "01 tác vụ local",
+        "03 luồng liên quan",
+        "05 màn hình nghiệp vụ"
+      ],
+      [
+        "API ngoài",
+        "Không gồm",
+        "01 tích hợp",
+        "01 tích hợp"
+      ],
+      [
+        "Vai trò người dùng",
+        "01 người dùng local",
+        "Không gồm phân quyền",
+        "Tối đa 03 vai trò"
+      ],
+      [
+        "Hỗ trợ sửa lỗi",
+        "30 ngày",
+        "45 ngày",
+        "60 ngày"
+      ]
+    ],
+    "note": "Giá khởi điểm cho phạm vi giới hạn, chốt sau khảo sát. Chưa gồm phí API, AI token, máy chủ, tên miền, phần mềm trả phí, migration dữ liệu lớn và bảo trì định kỳ. Tích hợp phụ thuộc quyền truy cập và điều kiện nhà cung cấp. Không mặc định đáp ứng tải lớn hoặc SLA 24/7; cần đo và thỏa thuận riêng.",
+    "out": [
+      "Đặc tả ngắn về quy trình, giới hạn và tiêu chí nghiệm thu",
+      "Bản công cụ chạy được theo môi trường đã thống nhất",
+      "Mã nguồn, cấu hình mẫu và tài liệu cài đặt",
+      "Danh sách kiểm thử, hướng dẫn sử dụng và lưu ý vận hành"
+    ],
+    "metrics": "Đo thời gian thực hiện cùng một bộ tác vụ trước và sau, tỷ lệ lỗi, số bước thủ công và chất lượng kết quả xuất ra. Hiệu quả cần được kiểm chứng bằng dữ liệu thực tế của doanh nghiệp; không áp dụng một tỷ lệ tiết kiệm thời gian cho mọi quy trình.",
+    "prep": "Chuẩn bị ví dụ đầu vào/đầu ra đã loại thông tin nhạy cảm, mô tả quy trình và người trực tiếp thử nghiệm. Với API cần có tài liệu và quyền hợp lệ; không đưa khóa bí mật vào mã nguồn công khai. Thời gian dự kiến tính sau khi chốt đặc tả và nhận đủ điều kiện tích hợp.",
+    "faq": [
+      [
+        "Có thể làm công cụ từ file Excel đang dùng không?",
+        "Có thể khảo sát file mẫu, quy tắc xử lý và đầu ra mong muốn. Công thức phức tạp, macro hoặc dữ liệu lớn cần kiểm tra trước khi xác nhận chi phí."
+      ],
+      [
+        "Prototype có dùng như SaaS thương mại ngay được không?",
+        "Không mặc định. Prototype kiểm chứng quy trình trong phạm vi giới hạn. SaaS cần thêm nhiều hạng mục như nhiều khách hàng, bảo mật, thanh toán, quan sát hệ thống và vận hành."
+      ],
+      [
+        "Phí API hoặc AI đã bao gồm chưa?",
+        "Chưa. Doanh nghiệp sở hữu tài khoản và thanh toán theo mức sử dụng. MarqByte có thể hỗ trợ theo dõi lỗi và hạn mức trong phạm vi công cụ."
+      ],
+      [
+        "Có bàn giao code và hướng dẫn chạy không?",
+        "Có. Mã nguồn do MarqByte phát triển được bàn giao theo hợp đồng, cùng hướng dẫn cài đặt và cấu hình mẫu. Thư viện bên thứ ba tuân theo giấy phép của nhà cung cấp."
+      ],
+      [
+        "Sau khi nghiệm thu có được yêu cầu thêm tính năng không?",
+        "Có thể mở rộng bằng hạng mục mới. Sửa lỗi là khắc phục hành vi sai so với đặc tả đã duyệt; thay đổi nghiệp vụ hoặc thêm nguồn dữ liệu được ước lượng riêng."
+      ]
+    ]
+  },
+  {
+    "slug": "social-media",
+    "art": "social",
+    "name": "Social Media",
+    "title": "Dịch vụ chăm sóc Fanpage & Social Media cho doanh nghiệp",
+    "desc": "Chăm sóc Fanpage Facebook, lên kế hoạch Social Media, viết bài và thiết kế nội dung. Xem các gói từ 2,5 triệu đồng/tháng với số lượng đầu ra rõ ràng.",
+    "lead": "Dịch vụ Social Media của MarqByte giúp doanh nghiệp duy trì Fanpage và các kênh mạng xã hội với kế hoạch nội dung nhất quán. Phạm vi gồm định hướng chủ đề, viết bài, thiết kế ảnh, lên lịch đăng và theo dõi phản hồi để thương hiệu có thông tin mới, dễ hiểu và dễ liên hệ.",
+    "why": "Fanpage chỉ đăng khi có khuyến mãi dễ thiếu những nội dung giúp khách hiểu sản phẩm, cách sử dụng và lý do lựa chọn. Chăm sóc Fanpage theo tháng giúp cân bằng giữa giới thiệu dịch vụ, giải đáp câu hỏi, chia sẻ kiến thức và thông tin bán hàng. Nội dung cần phù hợp người đọc của từng kênh thay vì đăng một bài giống nhau ở mọi nơi mà không xem xét bối cảnh.",
+    "fit": "Phù hợp cửa hàng, trường học, doanh nghiệp dịch vụ và thương hiệu thương mại điện tử có thông tin sản phẩm, hình ảnh hoặc tư liệu thực tế. Doanh nghiệp cần bố trí người cung cấp thông tin và duyệt nội dung; các yêu cầu chuyên môn hoặc chính sách bán hàng phải được xác nhận trước khi xuất bản.",
+    "scope": [
+      [
+        "Rà soát Fanpage và định hướng nội dung",
+        "Kiểm tra thông tin giới thiệu, ảnh bìa, liên kết và nội dung hiện có. Làm rõ nhóm người đọc, giọng điệu và điểm khác biệt của thương hiệu để xây dựng các trụ cột nội dung phù hợp."
+      ],
+      [
+        "Lập lịch đăng bài theo tháng",
+        "Phân bổ chủ đề kiến thức, sản phẩm, câu hỏi thường gặp và chương trình bán hàng. Lịch thể hiện ngày dự kiến, định dạng và yêu cầu tư liệu; các bài liên quan sự kiện thực tế cần nhận thông tin đúng hạn."
+      ],
+      [
+        "Viết bài và thiết kế hình ảnh Social",
+        "Biên soạn nội dung rõ thông điệp, lời kêu gọi hành động và thông tin liên hệ. Thiết kế ảnh tĩnh theo bộ nhận diện, ưu tiên tư liệu thật hoặc ảnh được phép sử dụng; hình ảnh minh họa được phân biệt khi cần."
+      ],
+      [
+        "Biên tập video ngắn từ tư liệu sẵn có",
+        "Ở gói có video, biên tập clip do doanh nghiệp cung cấp thành video ngắn theo kịch bản đã duyệt. Phạm vi cơ bản gồm cắt ghép, phụ đề và âm thanh có quyền sử dụng; quay tại địa điểm, diễn viên và hoạt họa phức tạp tính riêng."
+      ],
+      [
+        "Duyệt nội dung và hỗ trợ đăng bài",
+        "Gửi lịch và nội dung để doanh nghiệp phản hồi trước ngày đăng. Cập nhật các chỉnh sửa trong phạm vi, lên lịch khi được duyệt và kiểm tra cách hiển thị trên kênh được giao quản trị."
+      ],
+      [
+        "Theo dõi tương tác và điều chỉnh chủ đề",
+        "Tổng hợp lượt tiếp cận, phản hồi và nội dung được quan tâm trong phạm vi dữ liệu kênh. Đề xuất chủ đề hoặc định dạng tiếp theo dựa trên phản hồi, không cam kết tương tác chỉ bằng việc tăng tần suất đăng."
+      ]
+    ],
+    "plans": [
+      [
+        "Duy trì Fanpage",
+        "2.500.000",
+        "/tháng",
+        "Giữ một kênh hoạt động đều và đúng nhận diện.",
+        [
+          "01 kênh chính: Fanpage Facebook",
+          "08 bài viết + 08 ảnh tĩnh/tháng",
+          "01 lịch nội dung theo tháng",
+          "Rà soát phần giới thiệu lần đầu",
+          "Đăng bài sau khi được duyệt",
+          "01 báo cáo nội dung/tháng"
+        ]
+      ],
+      [
+        "Nội dung phát triển",
+        "4.500.000",
+        "/tháng",
+        "Thêm định dạng video và nội dung đa dạng hơn.",
+        [
+          "01 kênh chính + 01 kênh đăng lại",
+          "12 bài viết + 12 ảnh tĩnh/tháng",
+          "02 video ngắn từ tư liệu có sẵn",
+          "Tối đa 45 giây/video, cắt ghép cơ bản",
+          "02 lượt chỉnh sửa mỗi nội dung",
+          "Báo cáo + 01 buổi trao đổi/tháng"
+        ]
+      ],
+      [
+        "Social đồng hành",
+        "7.000.000",
+        "/tháng",
+        "Cho thương hiệu có nhiều thông tin và hoạt động.",
+        [
+          "01 kênh chính + 01 kênh đăng lại",
+          "16 bài viết + 16 ảnh tĩnh/tháng",
+          "04 video ngắn từ tư liệu có sẵn",
+          "Tối đa 45 giây/video, cắt ghép cơ bản",
+          "Lịch chủ đề và đề xuất thử nghiệm",
+          "Báo cáo + 02 buổi trao đổi/tháng"
+        ]
+      ]
+    ],
+    "rows": [
+      [
+        "Bài viết gốc/tháng",
+        "08",
+        "12",
+        "16"
+      ],
+      [
+        "Ảnh tĩnh/tháng",
+        "08",
+        "12",
+        "16"
+      ],
+      [
+        "Video từ clip có sẵn/tháng",
+        "Không gồm",
+        "02",
+        "04"
+      ],
+      [
+        "Kênh phụ đăng lại",
+        "Không gồm",
+        "01",
+        "01"
+      ]
+    ],
+    "note": "Mỗi bài gồm 01 nội dung và 01 ảnh tĩnh; bộ nhiều ảnh/carousel tính theo báo giá riêng. Kênh phụ đăng lại dùng cùng ý tưởng, điều chỉnh kỹ thuật cơ bản, không tính thành chiến lược nội dung riêng. Chưa gồm quảng cáo, quay chụp, KOL/KOC, trực inbox, chốt đơn và xử lý khủng hoảng truyền thông. Tối đa 02 lượt chỉnh sửa theo brief mỗi nội dung.",
+    "out": [
+      "Định hướng chủ đề, giọng điệu và lịch nội dung",
+      "Bài viết, ảnh tĩnh, video trong hạn mức đã chọn",
+      "Danh sách đường dẫn bài đã đăng và nội dung đã duyệt",
+      "Báo cáo theo tháng và đề xuất chủ đề tiếp theo"
+    ],
+    "metrics": "Theo dõi số nội dung đã xuất bản, lượt tiếp cận, tương tác và phản hồi có ý nghĩa. Khi có tracking phù hợp, bổ sung lượt bấm liên hệ hoặc truy cập website từ Social. Số người theo dõi và tương tác được xem trong bối cảnh ngành, không thay cho chất lượng khách hàng hoặc doanh thu.",
+    "prep": "Cần bộ nhận diện, thông tin sản phẩm/dịch vụ, tư liệu có quyền sử dụng, quyền quản trị kênh và người duyệt nội dung. Dự kiến 3–5 ngày làm việc để hoàn thiện định hướng và lịch tháng đầu sau khi nhận đủ thông tin. Chậm duyệt hoặc thiếu tư liệu có thể làm thay đổi lịch xuất bản.",
+    "faq": [
+      [
+        "Chăm sóc Fanpage có bao gồm chạy quảng cáo không?",
+        "Không mặc định. Social Media tập trung nội dung và vận hành kênh. Quảng cáo có ngân sách và quy trình quản lý riêng; bạn có thể kết hợp hai dịch vụ."
+      ],
+      [
+        "Có hỗ trợ Instagram và TikTok không?",
+        "Có thể chọn kênh phù hợp trong đề xuất. Kênh phụ của gói là đăng lại nội dung phù hợp định dạng; xây chiến lược TikTok riêng hoặc sản xuất video mới cần báo giá riêng."
+      ],
+      [
+        "Doanh nghiệp chưa có nhiều hình ảnh thì làm thế nào?",
+        "Có thể dùng ảnh minh họa có quyền sử dụng và thiết kế theo thương hiệu. Tư liệu thật vẫn cần bổ sung khi giới thiệu con người, cơ sở, sản phẩm hoặc kết quả thực tế."
+      ],
+      [
+        "Video có bao gồm quay tại cửa hàng không?",
+        "Không. Video trong bảng giá được biên tập từ tư liệu doanh nghiệp cung cấp. Quay tại địa điểm, diễn viên, thiết bị và lịch sản xuất được thỏa thuận riêng."
+      ],
+      [
+        "Có đảm bảo tăng số người theo dõi không?",
+        "Không cam kết số người theo dõi cố định. MarqByte tập trung nội dung nhất quán, phản hồi của người đọc và các đầu ra đã thống nhất; không sử dụng tương tác giả để tạo báo cáo."
+      ]
+    ]
+  }
+]

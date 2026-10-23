@@ -51,15 +51,11 @@ Trước khi dùng để báo giá thật: tính lại công thiết kế/viết
 - Open Graph title/description, ngôn ngữ tiếng Việt; trang 404 đặt noindex.
 - Nội dung bám nhu cầu người đọc, tham khảo nguyên tắc: https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=vi
 
-## Cần tên miền thật để hoàn tất
+## Hoàn tất URL SEO với React
 
-Sau khi có URL GitHub Pages hoặc domain chính thức, chạy từ thư mục website:
+Bản React dùng `src/page-meta.json` để giữ metadata và JSON-LD. `scripts/prerender.mjs` dựng sẵn nội dung HTML của 14 trang khi build. Workflow GitHub Pages tự truyền `SITE_URL` thực từ bước configure-pages để tạo canonical, sitemap, robots và thẻ chia sẻ tuyệt đối. Xem README.md để build thủ công với SITE_URL.
 
-```bash
-python scripts/configure_seo.py https://YOUR-ACCOUNT.github.io/YOUR-REPO/
-```
-
-Thay URL mẫu bằng URL thật. Script bổ sung canonical tuyệt đối, og:url, ảnh chia sẻ tuyệt đối, sitemap.xml và robots.txt. Không dùng tên miền giả trong bản demo vì có thể khiến canonical trỏ sai khi upload. Sau khi cấu hình cần upload lại các file đã đổi. Xác minh Search Console và gửi sitemap khi triển khai chính thức; chưa thực hiện tác vụ đó trong bản source này.
+Không dùng script configure_seo.py hoặc version_assets.py của bản HTML trước đây với source React. JavaScript/CSS được Vite sinh tên có hash tự động. Nội dung chính vẫn hiện diện trong HTML dựng sẵn, không chỉ xuất hiện sau khi tải React.
 
 ## Hình ảnh và thông tin thương hiệu
 

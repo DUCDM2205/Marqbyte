@@ -1,0 +1,20 @@
+/* Progressive enhancement: content stays visible if JS or animation fails. */
+@keyframes marqbyte-drift{0%,100%{translate:0 0}50%{translate:0 -7px}}
+html[data-motion="enabled"] .hero-art .float-chip{animation:marqbyte-drift 6s ease-in-out infinite}
+html[data-motion="enabled"] .hero-art .chip-seo{animation-delay:-2s}
+html[data-motion="enabled"] .hero-art .chip-auto{animation-delay:-4s}
+html[data-motion="enabled"] .hero-art .byte-core{animation:marqbyte-drift 8s ease-in-out infinite;animation-delay:-1s}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){
+ .package-card,.directory-image,.solution-image{transition:transform .24s ease,box-shadow .24s ease}
+ .package-card:hover{transform:translateY(-4px);box-shadow:0 14px 30px #146e3212}
+ .directory-row:hover .directory-image{transform:translateY(-3px)}
+ .round-arrow{transition:transform .2s ease,background .2s ease}
+ a:hover .round-arrow,a.round-arrow:hover{transform:rotate(8deg);background:var(--lime)}
+}
+/* Match label spacing from the approved static form. */
+.contact-form>select{margin-top:-10px;margin-bottom:17px}
+.contact-form .form-package-help{margin-top:0}
+@media(prefers-reduced-motion:reduce){
+ *,*:before,*:after{animation:none!important;transition:none!important}
+ html{scroll-behavior:auto}
+}

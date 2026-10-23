@@ -1,70 +1,116 @@
-# MarqByte — Website giới thiệu dịch vụ
+# MarqByte — ReactJS
 
-Website tĩnh HTML/CSS/JavaScript thuần, tiếng Việt. Không cần npm, framework hoặc build. Màu trắng, xanh lá, đen. Font hệ thống hỗ trợ tiếng Việt, không tải font từ bên ngoài.
+React 19 + Vite. Giữ giao diện trắng/xanh lá/đen, CSS, nội dung SEO, 7 ảnh minh họa và 21 gói dịch vụ từ bản đã duyệt. Thêm hiệu ứng xuất hiện nhẹ khi cuộn, chuyển động chậm trên đồ họa trang chủ và hover thẻ/nút. Tôn trọng `prefers-reduced-motion`; nội dung không bị ẩn nếu JavaScript hoặc animation không chạy.
 
-## Bản sửa hiển thị v3
+14 trang được prerender thành HTML khi build, sau đó React hydrate để điều khiển menu, biểu mẫu và hiệu ứng. Không cần server Node chạy trên GitHub Pages. Giữ các URL `.html`, không dùng hash routing. Mở trực tiếp hoặc reload các trang dịch vụ trên Pages hoạt động nhờ có file HTML thật.
 
-Đã giới hạn chiều rộng ảnh và grid để tránh tràn bố cục. CSS/JS đang dùng file có mã phiên bản trong `assets` để trình duyệt không lấy nhầm bản cũ. Khi upload cập nhật, cần thay đồng thời TẤT CẢ file HTML và thư mục `assets` trong cùng một commit. Không chỉ upload `index.html`, không bỏ qua file CSS/JS có tên `marqbyte-style-...` / `marqbyte-app-...`.
+## Hai cách đưa lên GitHub Pages
 
-Nếu tự sửa `assets/style.css` hoặc `assets/app.js`, chạy `python scripts/version_assets.py` để tạo tên phiên bản mới và cập nhật liên kết trong HTML. Upload các HTML và assets vừa được cập nhật cùng nhau.
+### Cách 1 — Muốn xem ngay trên repository Pages hiện tại
 
-Đã kiểm tra 6 trang chính ở 390, 768 và 1280px, không tràn ngang tài liệu.
+Trong bộ source đã có thư mục `dist` được build sẵn:
 
-## Xem trên máy tính
+1. Mở thư mục `dist`.
+2. Upload **nội dung bên trong** `dist` vào vị trí đang xuất bản trên repository cũ, ghi đè các file HTML và `assets` cùng lúc. Không đưa cả thư mục `dist` thành thư mục con của trang chủ.
+3. Giữ Settings → Pages → Deploy from a branch → đúng nhánh và `/ (root)` như website tĩnh trước đây.
+4. Commit changes, chờ Pages deployment thành công, mở website và Ctrl+Shift+R.
 
-Giải nén rồi mở `index.html` bằng Chrome hoặc Edge. Hoặc mở thư mục bằng VS Code, chạy `python -m http.server 5500`, truy cập http://localhost:5500. Nhấn Ctrl+C để dừng.
+Bản build sẵn vẫn chạy React: JavaScript và CSS đã được đóng gói trong `dist/assets`. Không upload source `index.html` ở gốc dự án theo cách này vì nó là đầu vào Vite và không chạy trực tiếp trên Pages.
 
-## Đưa lên GitHub Pages bằng giao diện web
+Bản build đính kèm chưa biết URL công khai của Blue nên chưa thêm canonical tuyệt đối/sitemap theo domain. Khi sử dụng Cách 2, workflow tự lấy URL Pages thực và bổ sung khi build. Có thể build thủ công với SITE_URL để bổ sung như phần SEO bên dưới.
 
-1. Đăng nhập GitHub, tạo repository mới (ví dụ `marqbyte-website`). Chọn Public nếu dùng GitHub Free với Pages.
-2. Trong repository, chọn Add file → Upload files.
-3. Upload toàn bộ nội dung bên trong thư mục `marqbyte`, bao gồm `index.html`, tất cả trang `.html`, thư mục `assets`, `.nojekyll` và README.md. Không upload nguyên file ZIP; không để `index.html` nằm trong một thư mục con.
-4. Chọn Commit changes.
-5. Mở Settings → Pages → Build and deployment → Deploy from a branch.
-6. Chọn branch `main`, thư mục `/ (root)`, bấm Save.
-7. Sau khi tác vụ Pages hoàn tất, mở địa chỉ GitHub hiển thị trong phần Pages.
+### Cách 2 — Lưu source React và tự động build khi cập nhật
 
-Mọi đường dẫn nội bộ là đường dẫn tương đối để sử dụng được với repository Pages.
+1. Chuẩn bị repository mới hoặc checkout sạch. Đưa toàn bộ nội dung bên trong thư mục `marqbyte-react` vào thư mục gốc repository: `src`, `public`, `scripts`, `.github`, `.gitignore`, `index.html`, `package.json`, `package-lock.json`, `vite.config.js` và các tài liệu.
+2. Không upload `node_modules` hoặc `.ssr`. Không cần commit `dist`; workflow tự build. Nếu dùng repository cũ, cần thay `index.html` cũ bằng file đầu vào Vite, và tránh giữ workflow deploy khác chạy đồng thời.
+3. Vào Settings → Pages → Build and deployment → Source: **GitHub Actions**.
+4. Push/commit lên nhánh `main`. Nếu nhánh chính có tên khác, sửa `branches: [main]` trong `.github/workflows/deploy.yml`.
+5. Vào tab Actions. Workflow **Deploy MarqByte React to GitHub Pages** sẽ cài dependencies, build, dựng sẵn 14 trang, kiểm tra liên kết và deploy thư mục `dist`.
+6. Khi deploy thành công, mở URL được GitHub Pages cung cấp. Các lần cập nhật sau chỉ cần push source.
 
-## Bản cập nhật nội dung SEO & bảng giá
+Nếu lần chạy đầu xảy ra trước khi bật Pages, bật Source = GitHub Actions rồi vào Actions → chọn workflow → Run workflow. File `.github/workflows/deploy.yml` phải có trong repository; kiểm tra thư mục này nếu upload qua trình duyệt.
 
-Đã mở rộng 7 trang dịch vụ, thêm 21 gói với phạm vi và bảng so sánh, 7 ảnh minh họa WebP riêng và trang `bang-gia.html`. Các mức giá là đề xuất tham khảo, cần rà soát giá vốn trước khi dùng làm báo giá chính thức. Xem `SEO-CONTENT-NOTES.md` để đọc bảng giá tổng hợp, định hướng từ khóa và cấu hình canonical/sitemap theo URL thật.
+## Chạy trên VS Code / Windows
 
-Mỗi nút tư vấn gói tự chọn sẵn dịch vụ và gói trong form; thay dịch vụ sẽ cập nhật danh sách gói. Form vẫn dùng mailto như bản trước.
+Cài Node.js 22 LTS (22.12 trở lên) hoặc bản LTS mới hơn tương thích. Mở đúng thư mục có `package.json`, chọn Terminal → New Terminal:
 
-## Các trang
+```bash
+npm ci
+npm run dev
+```
 
-- index.html: Trang chủ.
-- gioi-thieu.html: Giới thiệu thương hiệu và nguyên tắc làm việc.
-- dich-vu.html: Tổng quan 7 nhóm dịch vụ, 3 phương án hợp tác.
-- bang-gia.html: Giá khởi điểm 7 dịch vụ và đường dẫn tới 21 gói chi tiết.
-- dich-vu-*.html: 7 trang dịch vụ chi tiết.
-- giai-phap.html: Hướng triển khai tham khảo cho SME, cửa hàng địa phương, trường học và thương mại điện tử.
-- lien-he.html: Thông tin liên hệ và biểu mẫu tư vấn / thời gian muốn trao đổi.
-- 404.html: Trang không tìm thấy.
-- assets/style.css: Giao diện và responsive.
-- assets/app.js: Menu mobile, chọn dịch vụ theo URL, soạn email tư vấn.
+Mở địa chỉ Local được terminal hiển thị. Nhấn Ctrl+C để dừng. Những lần sau chỉ cần `npm run dev` nếu dependencies không đổi. Không mở source `index.html` bằng cách double-click vì trình duyệt cần Vite xử lý JSX/module.
 
-## Liên hệ
+Kiểm tra bản build:
 
-- Điện thoại: 0777 800 720.
-- Email: ducaliw2100@gmail.com.
-- Zalo: https://zalo.me/0777800720. Cần kiểm tra tài khoản có cho phép tìm bằng số điện thoại trước khi chạy chính thức.
+```bash
+npm run build
+npm run preview
+```
 
-Form sử dụng mailto: để mở ứng dụng email; người dùng tự nhấn Gửi trong ứng dụng. Chưa có backend, database, dịch vụ nhận form, thông báo tự động hoặc đặt lịch tự xác nhận. Ngày giờ là đề xuất chờ xác nhận, không phải lịch đã được đặt. Nếu thiết bị chưa cấu hình ứng dụng email, dùng nút Zalo hoặc gọi trực tiếp. Không lưu thông tin khách hàng vào trình duyệt.
+Lệnh `npm run build` thực hiện: build client với Vite → build renderer React → prerender 14 trang → kiểm tra HTML, liên kết, ảnh, JSON-LD và số gói. Thư mục `dist` là kết quả để xuất bản, `.ssr` chỉ là trung gian build.
 
-## Thay logo
+## Cấu hình URL SEO khi build thủ công
 
-Logo đính kèm chưa truy cập được lúc triển khai; chữ MarqByte và biểu tượng m↗ hiện là nhận diện tạm bằng HTML/CSS, không phải logo chính thức.
+Workflow GitHub Actions tự truyền URL Pages thông qua `SITE_URL`. Nếu build trên máy:
 
-Đặt logo chính thức tại `assets/logo.png` (hoặc .svg), thay nội dung bên trong các thẻ `a.brand` ở header/footer bằng `<img src="assets/logo.png" alt="MarqByte" width="180" height="45">`. Thêm CSS `.brand img { max-width:180px; height:auto; display:block; }`. Lặp lại ở tất cả trang HTML. Favicon riêng ở `assets/favicon.svg`.
+PowerShell, thay URL ví dụ bằng URL thật:
 
-## Điều chỉnh nội dung
+```powershell
+$env:SITE_URL = "https://YOUR-ACCOUNT.github.io/YOUR-REPOSITORY/"
+npm run build
+```
 
-Sửa văn bản trực tiếp trong các file HTML. Chỉnh màu tại `:root` trong style.css. Header/footer được viết sẵn ở từng trang để nội dung và điều hướng vẫn hoạt động khi JavaScript bị tắt; khi đổi thông tin chung cần sửa đồng bộ ở tất cả các trang.
+macOS/Linux:
 
-Chưa thêm khách hàng, logo đối tác, testimonial hoặc số liệu thành tích chưa được xác minh. Hình biểu đồ trên trang chủ là minh họa, đã ghi chú trong giao diện.
+```bash
+SITE_URL=https://YOUR-ACCOUNT.github.io/YOUR-REPOSITORY/ npm run build
+```
 
-## Kiểm tra trước khi dùng chính thức
+Khi có SITE_URL, build tạo canonical, og:url, ảnh chia sẻ tuyệt đối, robots.txt và sitemap.xml cho 13 trang có thể lập chỉ mục. Không đưa trang 404 vào sitemap. Nếu chưa có URL, website vẫn build/chạy được; không tạo canonical trỏ đến một domain giả.
 
-Thay logo; rà soát nội dung và phạm vi dịch vụ; thử Zalo/gọi điện trên điện thoại thật; thiết lập dịch vụ nhận form nếu cần; bổ sung chính sách quyền riêng tư khi thu thập dữ liệu qua backend; chạy `scripts/configure_seo.py` với URL thật để tạo canonical, sitemap và thẻ chia sẻ; cấu hình tracking nếu triển khai. Hiện chưa gắn quảng cáo, cookie tracking hay API.
+Đường dẫn asset của Vite dùng `base: './'`, các trang HTML và ảnh dùng đường dẫn tương đối: chạy được ở domain gốc và `/repository/` mà không phải hard-code tên repository. Khi dùng domain riêng, Pages base URL cần phản ánh cấu hình domain thực tế.
+
+## Cấu trúc source
+
+- `src/App.jsx`: bố cục dùng chung.
+- `src/components/Header.jsx`: nhận diện, điều hướng, menu mobile dùng React state.
+- `src/components/Footer.jsx`: footer và nút Zalo giữ giao diện cũ.
+- `src/components/ContactForm.jsx`: form tư vấn, chọn dịch vụ/gói, soạn email.
+- `src/components/Motion.jsx`: IntersectionObserver và Web Animations API, có cleanup và hỗ trợ giảm chuyển động.
+- `src/pages/*.jsx`: nội dung từng trang, JSX thật; không bọc HTML cũ bằng iframe hoặc dangerouslySetInnerHTML.
+- `src/styles/site.css`: giao diện đã duyệt, gồm các bản sửa tràn ảnh/grid.
+- `src/styles/motion.css`: chỉ các chuyển động bổ sung.
+- `src/services.json`: dữ liệu dịch vụ dùng cho lựa chọn gói trong form. Khi đổi tên/giá gói, cập nhật cả nội dung trang JSX tương ứng để không lệch với form.
+- `src/page-meta.json`: title, description, Open Graph và JSON-LD theo từng trang. Khi đổi nội dung SEO, sửa dữ liệu này.
+- `src/Pages.jsx`: danh sách URL và component trang.
+- `scripts/prerender.mjs`: dựng HTML từ React, bổ sung URL SEO khi có SITE_URL.
+- `scripts/verify-build.mjs`: kiểm tra bản xuất bản.
+- `public/assets`: hình WebP và favicon; Vite giữ nguyên các ảnh này.
+- `.github/workflows/deploy.yml`: tự build và deploy GitHub Pages.
+
+Không cần chạy script version_assets.py của bản HTML cũ. Vite tự sinh tên file JavaScript/CSS có mã hash mỗi lần nội dung thay đổi để tránh cache cũ.
+
+## Phạm vi giữ nguyên
+
+- Bảng màu, font, bố cục, ảnh, nội dung dịch vụ và mức giá tham khảo.
+- Gọi điện, Zalo, email, form đề xuất lịch hẹn.
+- Form vẫn mở ứng dụng email, không có backend/CRM hoặc đặt lịch tự xác nhận. Chỉ gửi sau khi khách nhấn Gửi trong ứng dụng email.
+- Logo vẫn là nhận diện chữ tạm từ bản trước; chưa thay bằng logo chính thức chưa được cung cấp ở dạng truy cập được.
+
+## Kiểm tra đã chạy
+
+- Production build và kiểm tra 14 trang prerender; giữ liên kết .html.
+- 18 bố cục: 6 trang đại diện tại 390, 768 và 1280px; không tràn ngang, React hydrate thành công.
+- Mở trực tiếp trang dịch vụ trong thư mục `/repository-test/`, ảnh và CSS/JS tải được.
+- Chọn gói SEO từ trang dịch vụ → form chọn sẵn gói 2; đổi dịch vụ cập nhật đúng danh sách gói.
+- Menu mobile mở/đóng bằng React, Escape đóng menu.
+- Không ghi nhận lỗi ứng dụng/hydration trong các trang đã kiểm tra.
+
+Workflow được cấu hình sẵn nhưng chưa chạy trong repository GitHub của Blue. Cần upload/push và chọn nguồn GitHub Pages như hướng dẫn để deploy thật.
+
+## Tài liệu chính thức
+
+- https://vite.dev/guide/static-deploy.html
+- https://react.dev/reference/react-dom/client/hydrateRoot
+- https://react.dev/reference/react-dom/server/renderToString

@@ -1,0 +1,11 @@
+import React from 'react';
+import {createRoot,hydrateRoot} from 'react-dom/client';
+import App from './App.jsx';
+import {pages} from './Pages.jsx';
+import './styles/site.css';
+import './styles/motion.css';
+const root=document.getElementById('root');
+const name=decodeURIComponent(window.location.pathname.split('/').pop()||'index.html');
+const page=root.dataset.page||(pages[name]?name:'404.html');
+if(root.hasChildNodes())hydrateRoot(root,<App page={page}/>);
+else createRoot(root).render(<App page={page}/>);

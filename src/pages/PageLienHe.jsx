@@ -1,0 +1,6 @@
+import ContactForm from '../components/ContactForm.jsx';
+export default function PageLienHe() {
+  return <>
+    <section className={"page-intro container"}><div className={"breadcrumb"}><a href={"index.html"}>{"Trang chủ"}</a><span>{"/"}</span>{"Liên hệ"}</div><span className={"eyebrow"}>{"MARQBYTE / LIÊN HỆ"}</span><h1>{"Cùng bắt đầu"}<br /><span className={"green"}>{"điều tiếp theo."}</span></h1><p>{"Bạn đang cần thêm khách hàng, một website mới hay bớt thao tác thủ công? Hãy kể MarqByte nghe."}</p></section><section className={"container contact-layout"}><div className={"contact-info"}><span className={"eyebrow"}>{"KẾT NỐI TRỰC TIẾP"}</span><h2>{"Chào bạn,"}<br />{"MarqByte sẵn sàng"}<br />{"lắng nghe"}<span className={"green"}>{"."}</span></h2><a href={"tel:0777800720"}><small>{"GỌI ĐIỆN"}</small><strong>{"0777 800 720 ↗"}</strong></a><a href={"mailto:ducaliw2100@gmail.com"}><small>{"EMAIL"}</small><strong>{"ducaliw2100@gmail.com ↗"}</strong></a><a className={"button"} href={"https://zalo.me/0777800720"} target={"_blank"} rel={"noopener"}>{"Trao đổi qua Zalo ↗"}</a><p>{"Bạn có thể đề xuất thời gian trao đổi trong biểu mẫu. Lịch hẹn được xác nhận lại qua liên hệ trực tiếp."}</p></div><ContactForm /></section>
+  </>;
+}
