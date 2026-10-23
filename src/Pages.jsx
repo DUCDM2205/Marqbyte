@@ -1,3 +1,5 @@
+import PageTinTuc, {ArticlePage} from './pages/PageTinTuc.jsx';
+import {articles,articleUrl} from './news.js';
 import Page404 from './pages/Page404.jsx';
 import PageBangGia from './pages/PageBangGia.jsx';
 import PageDichVuAdsDaNenTang from './pages/PageDichVuAdsDaNenTang.jsx';
@@ -14,6 +16,8 @@ import PageIndex from './pages/PageIndex.jsx';
 import PageLienHe from './pages/PageLienHe.jsx';
 
 export const pages = {
+  "tin-tuc.html": PageTinTuc,
+  ...Object.fromEntries(articles.map(article=>[articleUrl(article),()=> <ArticlePage article={article}/>])),
   "404.html": Page404,
   "bang-gia.html": PageBangGia,
   "dich-vu-ads-da-nen-tang.html": PageDichVuAdsDaNenTang,
