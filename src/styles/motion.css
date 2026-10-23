@@ -1,15 +1,15 @@
 /* Progressive enhancement: content stays visible if JS or animation fails. */
-@keyframes marqbyte-drift{0%,100%{translate:0 0}50%{translate:0 -7px}}
-html[data-motion="enabled"] .hero-art .float-chip{animation:marqbyte-drift 6s ease-in-out infinite}
+@keyframes marqbyte-drift{0%,100%{translate:0 0}50%{translate:0 -4px}}
+html[data-motion="enabled"] .hero-art .float-chip{animation:marqbyte-drift 10s ease-in-out infinite}
 html[data-motion="enabled"] .hero-art .chip-seo{animation-delay:-2s}
 html[data-motion="enabled"] .hero-art .chip-auto{animation-delay:-4s}
-html[data-motion="enabled"] .hero-art .byte-core{animation:marqbyte-drift 8s ease-in-out infinite;animation-delay:-1s}
+html[data-motion="enabled"] .hero-art .byte-core{animation:marqbyte-drift 12s ease-in-out infinite;animation-delay:-1s}
 @media(hover:hover) and (prefers-reduced-motion:no-preference){
- .package-card,.directory-image,.solution-image{transition:transform .24s ease,box-shadow .24s ease}
- .package-card:hover{transform:translateY(-4px);box-shadow:0 14px 30px #146e3212}
- .directory-row:hover .directory-image{transform:translateY(-3px)}
- .round-arrow{transition:transform .2s ease,background .2s ease}
- a:hover .round-arrow,a.round-arrow:hover{transform:rotate(8deg);background:var(--lime)}
+ .package-card,.directory-image,.solution-image{transition:transform .55s cubic-bezier(.22,1,.36,1),box-shadow .55s ease}
+ .package-card:hover{transform:translateY(-2px);box-shadow:0 14px 30px #146e3212}
+ .directory-row:hover .directory-image{transform:translateY(-2px)}
+ .round-arrow{transition:transform .5s cubic-bezier(.22,1,.36,1),background .4s ease}
+ a:hover .round-arrow,a.round-arrow:hover{transform:rotate(5deg);background:var(--lime)}
 }
 /* Match label spacing from the approved static form. */
 .contact-form>select{margin-top:-10px;margin-bottom:17px}
@@ -17,4 +17,15 @@ html[data-motion="enabled"] .hero-art .byte-core{animation:marqbyte-drift 8s eas
 @media(prefers-reduced-motion:reduce){
  *,*:before,*:after{animation:none!important;transition:none!important}
  html{scroll-behavior:auto}
+}
+
+/* Gentle interaction timing, overriding the original short transitions. */
+@media (hover:hover) and (prefers-reduced-motion:no-preference) {
+ .button { transition:background .4s ease,transform .5s cubic-bezier(.22,1,.36,1); }
+ .service-card { transition:transform .55s cubic-bezier(.22,1,.36,1),border-color .4s ease,box-shadow .55s ease; }
+ .package-art img { transition:transform .85s cubic-bezier(.22,1,.36,1); }
+ .package-card:hover .package-art img { transform:scale(1.02); }
+}
+@media (hover:none) {
+ .button:hover,.package-card:hover,.service-card:hover,.package-card:hover .package-art img { transform:none; }
 }
