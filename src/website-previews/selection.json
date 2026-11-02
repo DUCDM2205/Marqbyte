@@ -1,0 +1,247 @@
+[
+  {
+    "id": "WEB-001",
+    "category": "giao-duc",
+    "industry": "Giáo dục",
+    "name": "Mộc Mầm non trải nghiệm",
+    "niche": "Mầm non trải nghiệm",
+    "style": "Editorial",
+    "title": "Một góc nhìn khác về mầm non trải nghiệm.",
+    "tagline": "Mở cánh cửa học tập theo cách của bạn.",
+    "description": "Tìm hiểu chương trình, cách học và môi trường trước khi lựa chọn lộ trình phù hợp.",
+    "cta": "Khám phá chương trình",
+    "contact": "Đăng ký buổi tư vấn",
+    "offers": [
+      "Lộ trình học",
+      "Trải nghiệm lớp học",
+      "Tư vấn chương trình"
+    ],
+    "images": [
+      "images/giao-duc-0.jpg",
+      "images/giao-duc-1.jpg",
+      "images/giao-duc-2.jpg"
+    ],
+    "accent": "#214e3c",
+    "theme": "light",
+    "recipe": {
+      "hero": 0,
+      "nav": 0,
+      "geometry": 0,
+      "story": 0,
+      "offers": 0,
+      "feature": 0,
+      "process": 0,
+      "gallery": 0,
+      "order": [
+        "story",
+        "offers",
+        "feature",
+        "process",
+        "gallery",
+        "faq",
+        "contact"
+      ],
+      "type": 0,
+      "radius": 0,
+      "density": 0
+    },
+    "story": "Mầm non trải nghiệm không chỉ là một lựa chọn. Đó còn là cách bạn sắp xếp những điều quan trọng trong cuộc sống và công việc. Mộc bắt đầu từ câu hỏi: điều gì thực sự phù hợp với bạn?",
+    "focus": "Chọn điều phù hợp"
+  },
+  {
+    "id": "WEB-077",
+    "category": "thoi-trang",
+    "industry": "Thời trang",
+    "name": "Nếp Trang phục nam",
+    "niche": "Trang phục nam",
+    "style": "Brutalist",
+    "title": "Điều mới đang chờ tại trang phục nam.",
+    "tagline": "Mặc điều khiến bạn thấy là chính mình.",
+    "description": "Khám phá thiết kế, chất liệu và những gợi ý phối đồ cho nhịp sống riêng.",
+    "cta": "Khám phá bộ sưu tập",
+    "contact": "Tư vấn phong cách",
+    "offers": [
+      "Bộ sưu tập mới",
+      "Chất liệu & phom dáng",
+      "Tư vấn kích cỡ"
+    ],
+    "images": [
+      "images/ban-le-0.jpg",
+      "images/ban-le-1.jpg",
+      "images/ban-le-2.jpg"
+    ],
+    "accent": "#db4c28",
+    "theme": "paper",
+    "recipe": {
+      "hero": 7,
+      "nav": 1,
+      "geometry": 5,
+      "story": 7,
+      "offers": 6,
+      "feature": 8,
+      "process": 1,
+      "gallery": 6,
+      "order": [
+        "process",
+        "gallery",
+        "offers",
+        "story",
+        "feature",
+        "faq",
+        "contact"
+      ],
+      "type": 1,
+      "radius": 4,
+      "density": 0
+    },
+    "story": "Trang phục nam không chỉ là một lựa chọn. Đó còn là cách bạn sắp xếp những điều quan trọng trong cuộc sống và công việc. Nếp bắt đầu từ câu hỏi: điều gì thực sự phù hợp với bạn?",
+    "focus": "Khám phá chiều sâu"
+  },
+  {
+    "id": "WEB-125",
+    "category": "khach-san",
+    "industry": "Khách sạn",
+    "name": "Tầm Homestay",
+    "niche": "Homestay",
+    "style": "Cinematic",
+    "title": "Nơi ý tưởng gặp thực tế: homestay.",
+    "tagline": "Ở lại lâu hơn với những điều đáng nhớ.",
+    "description": "Xem không gian, tiện nghi và các lựa chọn lưu trú trước khi lên kế hoạch chuyến đi.",
+    "cta": "Khám phá nơi ở",
+    "contact": "Hỏi phòng trống",
+    "offers": [
+      "Phòng & không gian",
+      "Trải nghiệm lưu trú",
+      "Yêu cầu đặt phòng"
+    ],
+    "images": [
+      "images/du-lich-0.jpg",
+      "images/du-lich-1.jpg",
+      "images/du-lich-2.jpg"
+    ],
+    "accent": "#1e352d",
+    "theme": "light",
+    "recipe": {
+      "hero": 16,
+      "nav": 2,
+      "geometry": 8,
+      "story": 6,
+      "offers": 8,
+      "feature": 0,
+      "process": 0,
+      "gallery": 0,
+      "order": [
+        "offers",
+        "gallery",
+        "feature",
+        "story",
+        "process",
+        "faq",
+        "contact"
+      ],
+      "type": 4,
+      "radius": 18,
+      "density": 0
+    },
+    "story": "Homestay không chỉ là một lựa chọn. Đó còn là cách bạn sắp xếp những điều quan trọng trong cuộc sống và công việc. Tầm bắt đầu từ câu hỏi: điều gì thực sự phù hợp với bạn?",
+    "focus": "Khám phá chiều sâu"
+  },
+  {
+    "id": "WEB-171",
+    "category": "kien-truc",
+    "industry": "Kiến trúc",
+    "name": "Hiên Kiến trúc nghỉ dưỡng",
+    "niche": "Kiến trúc nghỉ dưỡng",
+    "style": "Minimal",
+    "title": "Làm điều quen thuộc theo cách mới: kiến trúc nghỉ dưỡng.",
+    "tagline": "Không gian đẹp bắt đầu từ cách bạn sống.",
+    "description": "Cùng nhìn lại nhu cầu sử dụng, bối cảnh khu đất và tinh thần bạn muốn mang vào không gian.",
+    "cta": "Xem ý tưởng thiết kế",
+    "contact": "Trao đổi dự án",
+    "offers": [
+      "Định hướng thiết kế",
+      "Bộ sưu tập ý tưởng",
+      "Trao đổi dự án"
+    ],
+    "images": [
+      "images/bat-dong-san-0.jpg",
+      "images/bat-dong-san-1.jpg",
+      "images/bat-dong-san-2.jpg"
+    ],
+    "accent": "#755728",
+    "theme": "light",
+    "recipe": {
+      "hero": 21,
+      "nav": 1,
+      "geometry": 11,
+      "story": 1,
+      "offers": 8,
+      "feature": 6,
+      "process": 7,
+      "gallery": 2,
+      "order": [
+        "gallery",
+        "offers",
+        "story",
+        "feature",
+        "process",
+        "faq",
+        "contact"
+      ],
+      "type": 5,
+      "radius": 4,
+      "density": 1
+    },
+    "story": "Kiến trúc nghỉ dưỡng không chỉ là một lựa chọn. Đó còn là cách bạn sắp xếp những điều quan trọng trong cuộc sống và công việc. Hiên bắt đầu từ câu hỏi: điều gì thực sự phù hợp với bạn?",
+    "focus": "Cảm nhận khác biệt"
+  },
+  {
+    "id": "WEB-221",
+    "category": "cong-nghe",
+    "industry": "Công nghệ",
+    "name": "Nhịp Nền tảng cộng tác",
+    "niche": "Nền tảng cộng tác",
+    "style": "Technical",
+    "title": "Bước tiếp theo cùng nền tảng cộng tác.",
+    "tagline": "Biến sự phức tạp thành trải nghiệm rõ ràng.",
+    "description": "Khám phá công cụ, quy trình và khả năng kết nối phù hợp với cách đội ngũ của bạn làm việc.",
+    "cta": "Khám phá giải pháp",
+    "contact": "Đặt lịch demo",
+    "offers": [
+      "Khám phá giải pháp",
+      "Trải nghiệm sản phẩm",
+      "Trao đổi nhu cầu"
+    ],
+    "images": [
+      "images/cong-nghe-0.jpg",
+      "images/cong-nghe-1.jpg",
+      "images/cong-nghe-2.jpg"
+    ],
+    "accent": "#204c38",
+    "theme": "light",
+    "recipe": {
+      "hero": 4,
+      "nav": 4,
+      "geometry": 14,
+      "story": 4,
+      "offers": 2,
+      "feature": 4,
+      "process": 8,
+      "gallery": 8,
+      "order": [
+        "feature",
+        "gallery",
+        "offers",
+        "story",
+        "process",
+        "faq",
+        "contact"
+      ],
+      "type": 10,
+      "radius": 100,
+      "density": 0
+    },
+    "story": "Nền tảng cộng tác không chỉ là một lựa chọn. Đó còn là cách bạn sắp xếp những điều quan trọng trong cuộc sống và công việc. Nhịp bắt đầu từ câu hỏi: điều gì thực sự phù hợp với bạn?",
+    "focus": "Khám phá chiều sâu"
+  }
+]

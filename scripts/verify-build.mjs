@@ -18,7 +18,7 @@ for(const page of Object.keys(meta)){
  }
  for(const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g))JSON.parse(match[1]);
  images+=(html.match(/<img\b/g)||[]).length;
- if(page.startsWith('dich-vu-')&&(html.match(/class="package-card/g)||[]).length!==3)failures.push(page+': package count');
+ if(page.startsWith('dich-vu-')&&(html.match(/class="package-card/g)||[]).length!==(page==='dich-vu-thiet-ke-website.html'?6:3))failures.push(page+': package count');
 }
 if(failures.length)throw new Error(failures.join('\n'));
 console.info(`PASS: ${Object.keys(meta).length} prerendered pages, ${links} local links/assets, ${images} image placements; heading, package and schema checks passed.`);

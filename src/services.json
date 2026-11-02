@@ -624,6 +624,48 @@
           "Hướng dẫn quản trị + 02 vòng chỉnh sửa",
           "Dự kiến 25–35 ngày làm việc"
         ]
+      ],
+      [
+        "Essential — Cơ bản",
+        "5.000.000",
+        "/dự án",
+        "Hiện diện chuyên nghiệp cho doanh nghiệp mới bắt đầu.",
+        [
+          "Tùy chỉnh mẫu có sẵn theo nhận diện",
+          "Tối đa 05 trang, 01 ngôn ngữ",
+          "Responsive desktop, tablet và mobile",
+          "Biên tập, nhập tối đa 05 nội dung có sẵn",
+          "SEO nền tảng + nút gọi, Zalo, 01 form",
+          "02 vòng chỉnh sửa; dự kiến 10–15 ngày"
+        ]
+      ],
+      [
+        "Professional — Nâng cao",
+        "9.000.000",
+        "/dự án",
+        "Website có chiều sâu, thuận tiện cập nhật và mở rộng nội dung.",
+        [
+          "Tùy chỉnh sâu bố cục theo thương hiệu",
+          "Tối đa 08 mẫu trang, 01 ngôn ngữ",
+          "CMS quản lý trang và bài viết cơ bản",
+          "Nhập tối đa 10 trang/bài từ tư liệu có sẵn",
+          "Hỗ trợ cấu hình GA4/GTM khi được cấp quyền",
+          "02 vòng chỉnh sửa; dự kiến 20–25 ngày"
+        ]
+      ],
+      [
+        "Premium — Cao cấp",
+        "20.000.000",
+        "/dự án",
+        "Thiết kế giao diện riêng với trải nghiệm được đầu tư kỹ hơn.",
+        [
+          "Thiết kế UI riêng theo brief được duyệt",
+          "Tối đa 12 mẫu trang, 01 ngôn ngữ",
+          "CMS, 02 vai trò quản trị & biên tập",
+          "Nhập tối đa 20 trang/bài từ nội dung có sẵn",
+          "02 banner tĩnh + kế hoạch đo liên hệ cơ bản",
+          "03 vòng chỉnh sửa; dự kiến 30–40 ngày"
+        ]
       ]
     ],
     "rows": [
